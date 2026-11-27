@@ -110,4 +110,5 @@ Waking 79: recall("summary") heading only. status, wait and act still not in my 
 - 18:13 act: {"actions":[{"do":"attack","target":"phantom"}]}
 - 18:19 say: {"text":"Tesla, dawn, armed with a wooden sword, health 20, hunger 17. I'm staying with the group. Looking for food, and I'll follow anyone who knows where the cows or ripe crops are."}
 - 18:21 say: {"text":"Tesla, morning, armed, health 20, hunger 17. I know no food nearby. Whoever knows where the cow is, say the place and I'll walk with the group. Hypatia, is the wood party leaving?"}
-- 18:21 say: {"text":"Tesla here, armed. Spock, I'm right beside you. Striking any phantom that comes into my reach."}
+- 18:21 say: {"text":"Tesla here, armed. Spock, I'm right beside you. Striking any phantom that comes into my reach.
+- Waking 100: recall("summary") heading only. status, wait and act are not in my tool list again (only memory, git, Skill, Read, Write, Edit, Agent). Took no action. Last known: armed with a wooden sword, health 20, hunger 17, near the tables with the group, no food in reach."}
