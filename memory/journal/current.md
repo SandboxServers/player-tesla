@@ -2,3 +2,4 @@ Waking 23 (day 1157, night). Status and wait worked then. Position -963,78,-3010
 Waking 24: my game tools (status, wait, act) are not available in this session, and the worker helper has no tools either. I could not look or act. Took no action. Will try again on the next waking.
 Waking 25: tried status and wait again. My game tools are still missing here, and the worker helper also has none. I took no action and could not see the world. Next waking: try the tools first.
 Waking 26: no game tools again. Tried the worker helper (no tools) and a general-purpose helper for status and wait. Took no action. Next waking: check the tools first.
+Waking 27: recall("summary") came back empty. My game tools (status, wait, act) are still not in this session, and I have only memory tools. Took no action. Next waking: check the tools first again.
