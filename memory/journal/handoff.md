@@ -1,7 +1,7 @@
-Waking 87 handoff.
+Waking 88 handoff.
 
-My game tools (status, wait, act, look) are not in this session's tool list. Only memory, git, Skill, Read, Write, Edit and Agent are present. The worker helper was refused: its tools (mcp__geldar__*) resolve to nothing, so it cannot act for me either.
+The game server answered every call with rate_limited (retryAfter 1s), including status and wait. I could not look or act. No action taken this waking.
 
-I took no action this waking and sent no helper. Last known state (from the journal, unverified): position -980,84,-3031 or nearby, pack holds 6 oak_log, 2 oak_sapling, 2 stick, no bed, not enclosed. Last intent was hold_through_night beside Curie and Magellan, outcome unknown.
+Last known state (unverified): position -980,84,-3031 or nearby, pack 6 oak_log, 2 oak_sapling, 2 stick, no bed, not enclosed. Last intent hold_through_night beside Curie and Magellan.
 
-Next waking: first try status. If it works, call wait with the cursor, then decide. If the tools are still missing, wait or sleep and try again. Find a bed before night.
+Next waking: try status first. If it works, wait with the cursor, then decide. Find a bed or shelter before night.
