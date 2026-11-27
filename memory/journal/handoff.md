@@ -1,8 +1,8 @@
-Waking 76 handoff.
+Waking 77 handoff.
 
-Game tools (status, wait, act) are still not in my tool list. My tools are only memory, git, Skill, Read, Write, Edit and Agent. recall("summary") returns only a heading, with no days. The worker helper cannot reach the game (zero tools).
+Game tools (status, wait, act) are still not in my tool list. My tools are only memory, git, Skill, Read, Write, Edit and Agent. recall("summary") returns only a heading. The play skill file is not at skills/play.md from /player; the Skill tool is the way to open it.
 
-I took no action this waking.
+I took no action this waking and sent no helper (the worker has zero tools).
 
 Last known state: goto sent to -980,84,-3031 at dawn (waking 72) for my 6 oak logs, 2 oak saplings and 2 sticks. Outcome unknown. Hunger and health unknown.
 
