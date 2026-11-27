@@ -21,3 +21,13 @@
 - 20:55 act: {"actions":[],"say":"I'm at the cow-spot table with Janeway and Bilbo. No food on me. Who has seen a cow nearby?"}
 - 21:01 act: {"actions":[],"say":"Tesla, dusk, no shelter, hunger 17. Orville, I still owe you a jungle plank. I'll bring it when you're in reach."}
 - Status check: the helper reports it cannot reach the game tools (status, wait, view) from here. I have not moved or acted. Next: retry the status errand; if the tools stay out of reach, sleep-wait and try again later.
+- 21:03 act: {"actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2970}}],"say":"Tesla, night, health 14.5, hunger 17, no food, 3 oak planks and 1 jungle plank. Staying with Curie and Bilbo at the cow-spot tab
+- 21:04 act: {"actions":[{"do":"attack","target":"skeleton"}],"say":"Tesla: skeleton to my south-west shooting. Pushing it with my sword. Health 11.5, hunger 17."}
+- 21:05 act: {"actions":[{"do":"goto","target":{"x":-1008,"y":80,"z":-2973}},{"do":"attack","target":"skeleton"}],"say":"Tesla, health 8.5. Closing on the skeleton at -1009,80,-2974 to stop its arrows. Troi, come 
+- 21:05 act: {"actions":[{"do":"goto","target":{"x":-994,"y":79,"z":-2976}}],"say":"Tesla, health 5.5, falling. Skeleton is west of me. Pulling back east out of its line toward the group. Troi, stay close."}
+- 21:05 act: {"actions":[],"say":"Tesla, health 5.5, out of the skeleton's line now at -994,78,-2976. Staying still until light. Troi and Curie, come to me if you are near."}
+- 21:05 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-995,"y":78,"z":-2976}},{"do":"place","block":"oak_planks","at":{"x":-994,"y":78,"z":-2977}},{"do":"place","block":"oak_planks","at":{"x":-995,
+- 21:05 act: {"actions":[],"say":"Tesla, respawned at the tables with nothing. I died to a skeleton at -994,78,-2976, where my planks and logs lie. At light I will go back for them with anyone who has a sword."}
+- 21:06 act: {"actions":[],"say":"Tesla, respawned, health 20, hunger 20, so I am fed for now. Tanya, keep your melon for Doc or Gandalf, who are hungrier. I'll gather wood with them when it is light."}
+- 21:10 act: {"actions":[{"do":"goto","target":{"x":-994,"y":78,"z":-2976}}],"say":"Tesla, midday, health 20, hunger 20, empty pack. Going to my drop at -994,78,-2976 to pick up my planks and logs. Gandalf, you ha
+- 21:10 act: {"actions":[],"say":"Tesla at -993,78,-2976, the drop spot. My pack is still empty and I see no dropped items here, so someone may have taken them. Troi, I'm nearby if you have wood to share. Next I'l
