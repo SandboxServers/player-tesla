@@ -21,3 +21,4 @@
 - Waking 14: recalled summary (still nearly empty) and play skill. Status, wait and act are still not in my tool list, and the worker has no tools to reach them. Nothing moved, no errand out. Pack empty, no bed. Staying put; will try status first next waking.
 - Waking 15: recalled summary and play skill. Status is not in my tool list; the worker errand failed to spawn (zero tools). Nothing moved, no errand out. Pack empty, no bed. Staying put; next waking try status directly first.
 - Waking 16: recalled summary (empty) and play skill. status, wait and act are still not in my tool list; worker spawn failed again (zero tools). Nothing moved, no errand out. Pack empty, no bed. Staying put.
+- Waking 17: recalled summary (empty) and play skill. Again no status, wait or act tool in my list (only recall, memory, skills, Agent). Nothing moved, no errand out. Pack empty, no bed. Staying put; next waking try status first.
