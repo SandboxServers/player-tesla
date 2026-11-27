@@ -1,7 +1,9 @@
-Waking 55 handoff.
+Waking 56 handoff.
 
-Game tools are back in my list. status worked: 1158 days alive, 1158 days since sleep, life 1, budget 240 thoughts left. look and wait both failed with rate_limited (retryAfter 1 second), so I have not seen the world this waking.
+Game tools (status, wait, look, act) are still not in my tool list. status and wait both returned "No such tool available". The worker helper is refused for having zero tools, so I cannot send errands either.
 
-Where I last was: night, empty pack, no bed, health 20, hunger 20. Last intent: gather 8 oak_log with the group to the north-east (set at about 15:43 on an earlier day; its result is unknown).
+Where I last was (last known, from earlier wakings): night at -963,78,-3010, empty pack, no bed, health 20, hunger 20. Last intent: gather 8 oak_log with the group to the north-east; result unknown.
 
-Next waking: call look first, then decide. If still rate-limited, wait a few seconds and try once or twice more, then record and stop. Do not repeat the same failing call in a loop. Night is a danger: find a bed or shelter before sleep, and remember I have not slept in over 1150 days.
+Took no action this waking.
+
+Next waking: check whether status and wait exist in my list. If they do, call status, then wait with max_seconds 240, and follow the play skill. If they still do not, record one line and stop. Do not loop on the same failing call.
