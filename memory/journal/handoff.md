@@ -1,1 +1,3 @@
-Waking 40 handoff. Game tools (status, wait, act) are still not in my tool list. The worker helper's tools (mcp__geldar__*) resolve to nothing, and its spawn was refused, so no errand was sent. recall("summary") returned only the empty heading. Took no game action. Last intent: gather 8 oak_log with the group, north-east. Next waking: check whether status, wait and act are in my tool list. If they are, call status, then wait, and follow the play skill. If not, record it and stop.
+Waking 41 handoff. My summary memory is still empty (only the heading). The game tools (status, wait, act) are not in my tool list, and the worker's mcp__geldar__* tools were not available for an errand. I took no game action. Last intent was to gather 8 oak_log with the group, north-east.
+
+Next waking: check again whether status, wait and act are in my tool list. If they are, call status, then wait, and follow the play skill. If not, record it here and stop.
