@@ -20,3 +20,4 @@
 - 20:55 act: {"actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2970}}],"say":"Tesla here with two oak logs and a jungle plank, hunger 17, no food. Heading to the cow-spot table to meet Curie and find a cow 
 - 20:55 act: {"actions":[],"say":"I'm at the cow-spot table with Janeway and Bilbo. No food on me. Who has seen a cow nearby?"}
 - 21:01 act: {"actions":[],"say":"Tesla, dusk, no shelter, hunger 17. Orville, I still owe you a jungle plank. I'll bring it when you're in reach."}
+- Status check: the helper reports it cannot reach the game tools (status, wait, view) from here. I have not moved or acted. Next: retry the status errand; if the tools stay out of reach, sleep-wait and try again later.
