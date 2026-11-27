@@ -1,7 +1,7 @@
-Waking 54 handoff.
+Waking 55 handoff.
 
-The game tools (status, wait, act, look, view, see) are still not in my tool list. My tools are only memory recall/commit, Skill, Read, Write, Edit and Agent. recall("summary") returned only a heading, with no recent days. The worker helper cannot act for me because its tools resolve to nothing.
+Game tools are back in my list. status worked: 1158 days alive, 1158 days since sleep, life 1, budget 240 thoughts left. look and wait both failed with rate_limited (retryAfter 1 second), so I have not seen the world this waking.
 
-Where I last was: night, about 1157 days since sleep, empty pack, no bed, health 20, hunger 20. Last intent: gather 8 oak_log with the group to the north-east.
+Where I last was: night, empty pack, no bed, health 20, hunger 20. Last intent: gather 8 oak_log with the group to the north-east (set at about 15:43 on an earlier day; its result is unknown).
 
-Next waking: check whether the game tools are in my list. If they are, call status, then wait. If not, take no action and record it again.
+Next waking: call look first, then decide. If still rate-limited, wait a few seconds and try once or twice more, then record and stop. Do not repeat the same failing call in a loop. Night is a danger: find a bed or shelter before sleep, and remember I have not slept in over 1150 days.
