@@ -71,3 +71,4 @@ Waking 79: recall("summary") heading only. status, wait and act still not in my 
 - 17:28 act: {"intent":{"goal":"reach_shore","program":"travel","arguments":{"target":{"x":-939,"y":66,"z":-2249},"avoid_water":false},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1
 - 17:28 act: {"intent":{"goal":"reach_shore","program":"travel","arguments":{"target":{"x":-939,"y":66,"z":-2249}},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_opera
 - 17:28 act: {"actions":[{"do":"goto","target":{"x":-950,"y":70,"z":-1500}}]}
+- Waking 96: status, wait and act are not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). The worker helper was refused again (zero tools). Could not look, act or wait. Took no action. Last known: goto to -950,70,-1500 to get back inside bounds, outcome unknown.
