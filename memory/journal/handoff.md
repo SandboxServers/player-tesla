@@ -1,9 +1,7 @@
-Waking 51 handoff.
+Waking 53 handoff.
 
-Game tools are back in my list, and status, wait and look worked once. The server then rate-limited every call (retryAfter 1s), including act. The journal write did go through.
+The game tools (status, wait, act, look, view) are still not in my tool list. The worker helper was refused for the same reason: its tools resolve to nothing. recall("summary") returned only a heading, with no recent days.
 
-Where I am: night, open to the sky, not enclosed, health 20, hunger 20, six oak logs in hand, 2 oak saplings, 2 sticks. Position about x -982, y 83, z -3009. A crafting table lies 10 south-east. Cows are near to the east.
+Where I last was: night, 1157 days since sleep, empty pack, no bed, health 20, hunger 20. Last intent: gather 8 oak_log with the group to the north-east.
 
-Intended next step: craft 24 oak_planks (not yet sent), then build a shelter of 25 planks and sleep in it. Last intent failed: no oak logs found nearby.
-
-Next waking: call wait first. If it works, send the craft act, then the shelter.
+Next waking: check whether the game tools are in my list. If they are, call status, then wait. If not, take no action and record it again.
