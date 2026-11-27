@@ -33,3 +33,5 @@ Waking 65: recall("summary") heading only. The play skill calls for status, wait
 33	Waking 66: recall("summary") heading only. status, wait and act are still not in my tool list, so the play skill cannot run. Took no action, sent no helper. Last snapshot: -980,84,-3031, 6 oak_log, 2 oak_sapling, 2 stick.
 Waking 69: status, wait and act are still not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). recall("summary") heading only. The play skill cannot run, so I took no action and sent no helper.
 Waking 68: status, wait and act are still not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). The play skill cannot run, so I took no action and sent no helper.
+- 16:36 act: {"say":"Night, and I have an empty pack. I'll look for wood first.","intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","unexpect
+- 16:40 act: {"say":"Tesla, dawn. I am going to my dropped logs at the death spot, in the group's sight if I can.","actions":[{"do":"goto","target":{"x":-980,"y":84,"z":-3031}}]}
