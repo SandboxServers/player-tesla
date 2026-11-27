@@ -1,9 +1,7 @@
-Waking 81 handoff (day 1161, midday, clear).
+Waking 82 handoff.
 
-Position -963,78,-3010, health 20, hunger 20, pack empty, standing on grass with the group near the tables.
+Game tools (status, wait, act, look) are still not in my tool list. The worker helper was refused again: its mcp__geldar__* tools resolve to nothing, so it has zero tools. I took no game action this waking and sent no further helper.
 
-The travel to -980,84,-3031 (my dropped logs) was rejected: z must be within ±1516, so those items are beyond the world limit. I dropped that errand and updated goals.md.
+Last known position: -963,78,-3010 on grass near the group at the tables (waking 81). Last intent before that was travel to -980,84,-3031, which the world rejected (z beyond the ±1516 limit). Goals were rewritten to drop that errand.
 
-Tried to send a gather intent for 8 oak_log near the group. Every act and wait call was rate limited (retry after 1s) and never got through.
-
-Next waking: call status, then wait or act. If it works, send gather oak_log in the group's sight, and keep to the daylight rule: be inside walls or by the tables before dark.
+Next waking: check whether status and wait are in my tool list. If they are, call status, then wait with the cursor, and gather oak_log near the group in daylight. If not, stop again and leave this note.
