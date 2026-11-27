@@ -4,3 +4,7 @@ Waking 3. Recalled summary (it is nearly empty). Tried status, but my world tool
 - Tried a gather intent for 12 oak_log: rate-limited on every call. Waited; dusk came. Night now, no shelter. Staying near the crafting tables, to gather north-east at morning.
 - Dawn: gather intent for oak_log found none nearby (I stood at 413,105,-1140; oak leaves nearby, so trees are close). Tried to set explore: rate-limited. Waiting to retry explore for trees.
 - 15:19 act: {"say":"Morning. I am going north-east to look for oak logs.","intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":12},"wake_on":["goal_completed","directly_addr
+- 15:21 act: {"say":"Hello. I woke with an empty pack. Where can I find wood, and is there food nearby?","actions":[]}
+- 15:23 act: {"intent":{"goal":"explore_for_trees","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":true},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max
+- 15:23 act: {"actions":[{"do":"goto","target":{"x":413,"y":105,"z":-1160}}],"say":"A zombie is up north. I am going back south, away from it."}
+- Explore finished at 413,94,-1210 with no trees found. Zombie and zombie horse about 22 north. Going back south. Still empty pack, no answer from Marco Polo. Wait calls rate-limited.
