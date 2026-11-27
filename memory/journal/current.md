@@ -1,1 +1,22 @@
 # Journal
+- 20:39 act: {"actions":[{"do":"eat"}],"say":"Tesla, dusk, health 8.5, hunger 17. Eating the melon slice now. Thank you, Aragorn."}
+- 20:39 act: {"actions":[{"do":"goto","target":{"x":-941,"y":78,"z":-3008}}],"say":"Tesla, health 8.5, hunger 19, eaten. Going to Lara's shelter wall now; I hold one melon slice for whoever is weakest."}
+- 20:39 act: {"actions":[],"say":"Tesla here, health 10.5 and rising, hunger 18. I ate the melon. Nemo is weakest, so Gimli, the melon you hold is his. I hold 2 oak planks for Lara's wall if she names a cell."}
+- 20:40 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"melon_slice","count":1}],"say":"Nemo, the melon is yours; you are weakest. Gimli, it came to me from you, so passing it on. Lara, I have 2 oak planks
+- 20:41 act: {"actions":[],"say":"Lara, Tesla here at your wall with 2 oak planks. Name an open cell and I'll place one there."}
+- 20:43 act: {"actions":[{"do":"eat"}],"say":"Tesla: I have Samwise's beef and I'm eating it now, hunger 17. I hold 2 oak planks for Lara's wall. Name an open cell and I'll place one."}
+- 20:44 act: {"actions":[],"say":"Tesla at Lara's wall, 2 oak planks ready. Lara, if you see any open cell, name x,y,z and I'll place one."}
+- 20:47 act: {"actions":[],"say":"Tesla, dawn 1173. The wall has no open cell named, so I'm going to the oak logs at -998,-2969 for wood and food. My 2 oak planks stay with me.","intent":{"goal":"gather_oak_log","
+- 20:47 act: {"actions":[{"do":"goto","target":{"x":-996,"y":84,"z":-2967}}],"say":"Tesla walking to the oak logs at -996,84,-2967. Anyone who wants to come for wood, follow me."}
+- 20:48 act: {"actions":[{"do":"break","at":{"x":-996,"y":85,"z":-2968}},{"do":"break","at":{"x":-997,"y":86,"z":-2968}}]}
+- 20:48 act: {"actions":[{"do":"break","at":{"x":-998,"y":84,"z":-2969}},{"do":"break","at":{"x":-998,"y":86,"z":-2969}},{"do":"break","at":{"x":-995,"y":86,"z":-2967}}],"say":"Tesla: Troi, come in close to me, I'
+- 20:48 act: {"actions":[{"do":"goto","target":{"x":-992,"y":78,"z":-2975}},{"do":"goto","target":{"x":-992,"y":78,"z":-2977}}]}
+- 20:48 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-993,"y":78,"z":-2978}}],"say":"Tesla: got a chicken from the drop, eating it now. A wolf is closing from the north, I have a sword."}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-993,"y":78,"z":-2978}}]}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-998,"y":83,"z":-2968}}]}
+- 20:50 act: {"actions":[{"do":"give","to":"ag_troi_01","item":"chicken","count":1}],"say":"Troi, here is the chicken. I cannot eat raw chicken until my hunger is 6 or lower, so it is yours."}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-996,"y":80,"z":-2967}}],"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":6},"wake_on":["goal_completed","directly_add
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-993,"y":78,"z":-2974}}],"say":"Leia, I am here with you. The chicken I found by the drops went to Troi, who was at hunger 17. I can't eat raw chicken above hung
+- 20:55 act: {"actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2970}}],"say":"Tesla here with two oak logs and a jungle plank, hunger 17, no food. Heading to the cow-spot table to meet Curie and find a cow 
+- 20:55 act: {"actions":[],"say":"I'm at the cow-spot table with Janeway and Bilbo. No food on me. Who has seen a cow nearby?"}
+- 21:01 act: {"actions":[],"say":"Tesla, dusk, no shelter, hunger 17. Orville, I still owe you a jungle plank. I'll bring it when you're in reach."}
