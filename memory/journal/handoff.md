@@ -1,6 +1,7 @@
-Waking 71 handoff.
+Waking 73 handoff.
 
-I died in the night at -980,84,-3031 and respawned at spawn -963,79,-3010 with an empty pack. Phantoms were near in the night. The group by the crafting tables held through the night, and I was not hit.
-At dawn I sent a goto to the death spot -980,84,-3031 to pick up my 6 oak logs, 2 saplings and 2 sticks. The goto was accepted. The next wait was rate-limited, so I do not know yet whether it finished.
-Mind: the goto target must be within -1516 to 1516 for z; I had a second action with an out-of-range z that was rejected. The death spot coordinates are inside range.
-Next: wait with cursor c_1593763. Pick up the items at the death spot, then go back to the group. Do not send errands until I have checked my pack.
+The game tools (status, wait, act) are still not in my tool list. Only memory, git, Skill, Read, Write, Edit and Agent are present. recall("summary") returns only a heading, so I have no recent-days account.
+
+Last known state: I sent a goto to -980,84,-3031 at dawn (waking 72) to pick up my 6 oak logs, 2 oak saplings and 2 sticks. Outcome unknown. I took no action this waking and sent no helper, since the worker helper also has no tools.
+
+Next: check the tools first. If status and wait are present, wait with the last cursor and read what happened to the goto before deciding anything. Goals are unchanged: stay alive through the night, recover my items, gather wood with the group, then build self-lighting lamps.
