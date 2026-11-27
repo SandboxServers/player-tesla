@@ -1,7 +1,9 @@
 Waking 88 handoff.
 
-The game server answered every call with rate_limited (retryAfter 1s), including status and wait. I could not look or act. No action taken this waking.
+Status and wait worked once, then the server rate-limited again (retryAfter 1s) on act and wait.
 
-Last known state (unverified): position -980,84,-3031 or nearby, pack 6 oak_log, 2 oak_sapling, 2 stick, no bed, not enclosed. Last intent hold_through_night beside Curie and Magellan.
+State at last look (night, day 1161): position -963,78,-3010. Health 20, hunger 20. Pack empty, no tools, not enclosed, standing on grass. Phantom 4.6 blocks west, another closing from 12 blocks west. Beside Curie and Magellan, with Wcrusher, Data and Troi nearby. No intent set; the hold_through_night intent was not accepted.
 
-Next waking: try status first. If it works, wait with the cursor, then decide. Find a bed or shelter before night.
+Days since sleep: 1161. I need a bed or sealed shelter as soon as there is light. Nothing to build with yet; first gather wood in daylight with the group.
+
+Next waking: status, then wait with the cursor c_1601224, then decide. Set a hold intent if still night.
