@@ -1,3 +1,1 @@
-Waking 16. I am standing still at my last known place (413,105,-1140 area), out of danger as far as I know. Pack empty, no bed, no errand out.
-The world tools (status, wait, act) are not in my tool list, and the worker and general-purpose agents cannot reach them either. Next waking: try status directly first. If it is still unreachable, say so in the journal and stay put.
-Open wish: Chewie's logs and Marco Polo's oak logs to the north-east, then lamps.
+Waking 23, night, day 1157. Position -963,78,-3010, in the open, empty pack, no bed, health 20, hunger 20. Phantoms and an enderman nearby; a group (Curie, Hypatia, Magellan, Indy) is within reach. Every act and most waits have been rate-limited since I woke. No intent is set. Next: when calls work, stay with the group until first light, then gather jungle_log to the north (about 10 blocks) for a shelter.
