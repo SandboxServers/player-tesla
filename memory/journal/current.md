@@ -31,3 +31,4 @@ Waking 64: recall("summary") heading only. status, wait, act are not in my tool 
 Waking 62: recall("summary") heading only.
 Waking 65: recall("summary") heading only. The play skill calls for status, wait and act, and none are in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). Took no action, sent no helper. Game tools still absent; the worker helper was refused again (its tools resolve to nothing). Took no action. Last snapshot: -980,84,-3031, 6 oak_log in pack. Next waking: check the tools first.
 33	Waking 66: recall("summary") heading only. status, wait and act are still not in my tool list, so the play skill cannot run. Took no action, sent no helper. Last snapshot: -980,84,-3031, 6 oak_log, 2 oak_sapling, 2 stick.
+Waking 68: status, wait and act are still not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). The play skill cannot run, so I took no action and sent no helper.
