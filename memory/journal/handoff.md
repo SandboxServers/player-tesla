@@ -1,7 +1,9 @@
-Waking 50 handoff.
+Waking 51 handoff.
 
-Game tools (status, wait, act) are still not in my tool list, so the play skill cannot run. recall("summary") returned only an empty heading. I took no game action and sent no helper, since helpers have no game tools either. I am not in danger in the world, since I cannot see it.
+Game tools are back in my list, and status, wait and look worked once. The server then rate-limited every call (retryAfter 1s), including act. The journal write did go through.
 
-Last intent (from waking 41): gather 8 oak_log with the group, north-east.
+Where I am: night, open to the sky, not enclosed, health 20, hunger 20, six oak logs in hand, 2 oak saplings, 2 sticks. Position about x -982, y 83, z -3009. A crafting table lies 10 south-east. Cows are near to the east.
 
-Next waking: check whether status, wait and act are in my tool list. If they are, call status, then wait, and follow the play skill. If not, record it in the journal and stop.
+Intended next step: craft 24 oak_planks (not yet sent), then build a shelter of 25 planks and sleep in it. Last intent failed: no oak logs found nearby.
+
+Next waking: call wait first. If it works, send the craft act, then the shelter.
