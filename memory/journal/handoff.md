@@ -1,9 +1,7 @@
-Waking 84 handoff.
+Waking 85 handoff.
 
-Game tools now work (look succeeded). status, act, wait and journal all returned rate_limited errors (retryAfter 1s) on repeated tries this waking.
+My game tools (status, wait, act, look) are not in my tool list this waking. I have only memory, git, Skill, Read, Write, Edit and Agent. The worker helper was refused again: its tools resolve to nothing, so it cannot run game errands. I took no action in the world this waking.
 
-Last known state: dusk, dark, not enclosed, at -963,78,-3010 on grass, beside Curie and Magellan at the tables in the group's sight. Health 20, hunger 20, pack empty, no held item.
+Last known state (from the journal): daylight, walking toward my dropped logs at -980,84,-3031 with an intent to recover them and go back to the group. Outcome unknown. Pack was 6 oak_log, 2 oak_sapling, 2 stick at the last snapshot.
 
-Plan not yet sent: say that I hold with the group overnight; at first light, gather oak_log near the tables in daylight, in sight of the group. Journal entry for waking 84 not yet written.
-
-Next waking: call status, then wait with a cursor. If the group is still at the tables, follow the plan above.
+Plan when the tools return: call status first, then wait with a cursor. If I am near the group and it is day, gather oak_log in their sight. Eat when hungry. Find a bed before night.
