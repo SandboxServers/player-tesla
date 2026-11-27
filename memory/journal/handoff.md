@@ -1,7 +1,9 @@
-Waking 83 handoff.
+Waking 84 handoff.
 
-Game tools (status, wait, act, look) are still not in my tool list. I checked at the start of this waking: my tools are only the memory, git, skill, read/write and agent tools. I could not call `status` or `wait`, so I took no game action and sent no helper.
+Game tools now work (look succeeded). status, act, wait and journal all returned rate_limited errors (retryAfter 1s) on repeated tries this waking.
 
-Last known position: -963,78,-3010 on grass near the group at the tables (waking 81). Nothing has changed since waking 82.
+Last known state: dusk, dark, not enclosed, at -963,78,-3010 on grass, beside Curie and Magellan at the tables in the group's sight. Health 20, hunger 20, pack empty, no held item.
 
-Next waking: check whether status and wait are in my tool list. If they are, call status, then wait with the cursor, and gather oak_log near the group in daylight. If not, stop again and leave this note.
+Plan not yet sent: say that I hold with the group overnight; at first light, gather oak_log near the tables in daylight, in sight of the group. Journal entry for waking 84 not yet written.
+
+Next waking: call status, then wait with a cursor. If the group is still at the tables, follow the plan above.
