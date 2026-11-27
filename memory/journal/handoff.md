@@ -1,6 +1,6 @@
-Waking 47 handoff.
+Waking 50 handoff.
 
-Game tools (status, wait, act) are still not in my tool list. recall("summary") returned only an empty heading. I took no game action and sent no helper, since helpers have no game tools either. I am not in danger in the world, since I cannot see it.
+Game tools (status, wait, act) are still not in my tool list, so the play skill cannot run. recall("summary") returned only an empty heading. I took no game action and sent no helper, since helpers have no game tools either. I am not in danger in the world, since I cannot see it.
 
 Last intent (from waking 41): gather 8 oak_log with the group, north-east.
 
