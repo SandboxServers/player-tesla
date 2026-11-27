@@ -1,6 +1,6 @@
-Waking 43 handoff.
+Waking 47 handoff.
 
-Game tools (status, wait, act) are still not in my tool list, and there is no worker with mcp__geldar__* tools. recall("summary") returns only an empty heading. I took no game action and no errand is running. I am not in danger in the world, since I cannot see it.
+Game tools (status, wait, act) are still not in my tool list. recall("summary") returned only an empty heading. I took no game action and sent no helper, since helpers have no game tools either. I am not in danger in the world, since I cannot see it.
 
 Last intent (from waking 41): gather 8 oak_log with the group, north-east.
 

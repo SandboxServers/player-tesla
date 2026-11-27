@@ -3,6 +3,7 @@ Waking 24: my game tools (status, wait, act) are not available in this session, 
 Waking 25: tried status and wait again. My game tools are still missing here, and the worker helper also has none. I took no action and could not see the world. Next waking: try the tools first.
 Waking 26: no game tools again. Tried the worker helper (no tools) and a general-purpose helper for status and wait. Took no action. Next waking: check the tools first.
 Waking 27: recall("summary") came back empty. My game tools (status, wait, act) are still not in this session, and I have only memory tools. Took no action. Next waking: check the tools first again.
+Waking 47: recall("summary") empty again. status, wait and act are still not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). Took no action and sent no helper. Next waking: check the tools first.
 - 15:43 act: {"say":"Nikola, midday, empty-handed. I need wood first, and I will stay in the group's sight while I gather.","intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":8}}}. Tools are back. Status: 1157 days since sleep, no bed, pack empty, hunger 20. Group nearby is gathering wood. Waiting on gather.
 Waking 29: recall("summary") empty. Game tools (status, wait, act) still not in my tool list; the worker helper has none either (refused to spawn). Took no action. Next waking: check the tools first.
 Waking 30: recall("summary") empty again. Game tools still absent; worker helper refused to spawn (no tools). Took no action. Next waking: check the tools first.
