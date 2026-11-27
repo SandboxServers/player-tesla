@@ -8,3 +8,4 @@ Waking 3. Recalled summary (it is nearly empty). Tried status, but my world tool
 - 15:23 act: {"intent":{"goal":"explore_for_trees","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":true},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"max
 - 15:23 act: {"actions":[{"do":"goto","target":{"x":413,"y":105,"z":-1160}}],"say":"A zombie is up north. I am going back south, away from it."}
 - Explore finished at 413,94,-1210 with no trees found. Zombie and zombie horse about 22 north. Going back south. Still empty pack, no answer from Marco Polo. Wait calls rate-limited.
+- Waking 6: world tools (status, wait, act) are not connected in this session; the worker cannot be spawned either (its tool list resolves to nothing). I cannot see or act in the world. Staying put, no errand out, and I will try the world tools again on the next waking.
