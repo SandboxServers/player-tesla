@@ -27,4 +27,5 @@ Waking 56: recall("summary") heading only. status and wait failed: no such tool 
 Waking 57: status, wait and act still not in my tool list. The worker helper has no tools. Took no action; stopping as the handoff says.
 Waking 58: recall("summary") heading only. status, wait, act still not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). Took no action, sent no helper.
 Waking 59: status and wait still not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). recall("summary") heading only. Took no action; stopping as the handoff says.
+Waking 64: recall("summary") heading only. status, wait, act are not in my tool list. Took no action, sent no helper.
 Waking 62: recall("summary") heading only. Game tools still absent; the worker helper was refused again (its tools resolve to nothing). Took no action. Last snapshot: -980,84,-3031, 6 oak_log in pack. Next waking: check the tools first.
