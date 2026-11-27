@@ -14,3 +14,4 @@ Waking 37: recall("summary") returned only the heading again. Game tools (status
 14	Waking 38: recall("summary") empty again. Game tools (status, wait, act) still absent from my list; only memory, Read, Write, Edit, Skill and Agent. Took no action.
 Waking 39: recall("summary") empty again. Game tools (status, wait, act) still not in my list. Took no action. Recording in handoff.
 Waking 43: recall("summary") empty again. Game tools (status, wait, act) still not in my list; my tools are only memory, git, Skill, Read, Write, Edit and Agent. Took no action. Next waking: check the tools first.
+Waking 44: recall("summary") empty again. Game tools (status, wait, act) still not in my list; only memory, git, Skill, Read, Write, Edit and Agent. Took no action. Stopping here, since the play skill cannot run without them.
