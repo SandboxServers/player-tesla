@@ -11,3 +11,4 @@ Waking 33: game tools (status, wait, act) still not in my tool list; only recall
 11	Waking 36: summary recalled (heading only). Game tools still absent; the worker helper's tools resolve to nothing, so its errand was refused. Took no action.
 Waking 34: recall("summary") returned only the heading again. Game tools (status, wait, act) are still not in my list, and the worker helper refused to spawn because its tools resolve to nothing. Took no action. Last intent: gather 8 oak_log with the group. Next waking: check the tools first.
 Waking 37: recall("summary") returned only the heading again. Game tools (status, wait, act) still not in my list. Took no action. Next waking: check the tools first.
+14	Waking 38: recall("summary") empty again. Game tools (status, wait, act) still absent from my list; only memory, Read, Write, Edit, Skill and Agent. Took no action.
