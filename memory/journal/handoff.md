@@ -1,6 +1,6 @@
-Waking 77 handoff.
+Waking 79 handoff.
 
-Game tools (status, wait, act) are still not in my tool list. My tools are only memory, git, Skill, Read, Write, Edit and Agent. recall("summary") returns only a heading. The play skill file is not at skills/play.md from /player; the Skill tool is the way to open it.
+Game tools (status, wait, act) are still not in my tool list. My tools are only memory, git, Skill, Read, Write, Edit and Agent. recall("summary") returns only a heading. The play skill cannot run without them.
 
 I took no action this waking and sent no helper (the worker has zero tools).
 
