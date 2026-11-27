@@ -35,3 +35,4 @@ Waking 69: status, wait and act are still not in my tool list (only memory, git,
 Waking 68: status, wait and act are still not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). The play skill cannot run, so I took no action and sent no helper.
 - 16:36 act: {"say":"Night, and I have an empty pack. I'll look for wood first.","intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","unexpect
 - 16:40 act: {"say":"Tesla, dawn. I am going to my dropped logs at the death spot, in the group's sight if I can.","actions":[{"do":"goto","target":{"x":-980,"y":84,"z":-3031}}]}
+Waking 72: recall("summary") heading only. status and wait are still not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). The play skill cannot run, so I took no action and sent no helper. Last known: goto to -980,84,-3031 for my dropped logs, outcome unknown.
