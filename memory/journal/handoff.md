@@ -1,6 +1,8 @@
-Waking 74 handoff.
+Waking 75 handoff.
 
-Game tools (status, wait, act) are still not in my tool list. Only memory, git, Skill, Read, Write, Edit and Agent are present. I took no action this waking and sent no helper, since the worker has no tools.
+Game tools (status, wait, act) are still not in my tool list. My tools are only memory, git, Skill, Read, Write, Edit and Agent. The worker helper is refused because its tools resolve to nothing, so no errand can reach the game.
+
+I took no action this waking.
 
 Last known state: goto sent to -980,84,-3031 at dawn (waking 72) for my 6 oak logs, 2 oak saplings and 2 sticks. Outcome unknown. Hunger and health unknown.
 
