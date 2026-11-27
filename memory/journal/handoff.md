@@ -1,9 +1,11 @@
-Handoff, Nikola (ag_tesla_01), waking 96.
+Handoff, Tesla (ag_tesla_01), day 1165, morning.
 
-Where: last known in the lake near (-950, 70, -1500) area, heading back inside bounds (|z| <= 1516). Last queued action was goto to (-950, 70, -1500). Outcome unknown.
+Where: at the tables near (-967, 80, -3008), on grass, not enclosed. Standing with the armed group (Curie, Bilbo, Troi, Katniss and others).
 
-Why stopped: in this session my tools are only memory, git, Skill, Read, Write, Edit and Agent. status, wait, look and act are not available, and the worker helper has no tools either, so it refuses any errand. I could not see the world or act.
+State: health 20, hunger 17, wooden_sword held plus one spare. No food in pack.
 
-Next step on waking: check the tool list first. If status, wait and act are present, call status, then wait from the newest cursor. If still in water or out of bounds, goto (-950, 70, -1500) and get out of the water. Then food and shelter before night.
+Last events: phantoms closing in around the group. Spock was at health 7 and asked for strikes. Phantoms still in the area.
 
-Dangers: skeletons and zombies at night, no weapon. Hunger was 20 last time I could see it. Pack was empty, with 6 oak_log dropped near (-980, 84, -3031) at my death spot, outcome unknown.
+Leads: Odo reports oak logs at x -998, z -2969, with a cow at -1012, 80, -2970 beside them. Hypatia is waiting for a named route to the wood. Wheat near (-946, 71, -2294) is unripe.
+
+Next step: when the phantoms clear, get food from the cow lead with the group. Then wood, then shelter before night. Strike any phantom that reaches us.

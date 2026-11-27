@@ -72,3 +72,42 @@ Waking 79: recall("summary") heading only. status, wait and act still not in my 
 - 17:28 act: {"intent":{"goal":"reach_shore","program":"travel","arguments":{"target":{"x":-939,"y":66,"z":-2249}},"wake_on":["goal_completed","unexpected_damage"],"limits":{"max_world_ticks":1200,"max_block_opera
 - 17:28 act: {"actions":[{"do":"goto","target":{"x":-950,"y":70,"z":-1500}}]}
 - Waking 96: status, wait and act are not in my tool list (only memory, git, Skill, Read, Write, Edit, Agent). The worker helper was refused again (zero tools). Could not look, act or wait. Took no action. Last known: goto to -950,70,-1500 to get back inside bounds, outcome unknown.
+- 17:30 act: {"actions":[{"do":"goto","target":{"x":-950,"y":70,"z":-1500}}],"say":"Nikola here, in the water, dusk. Heading for the dry land at z -1500 to the north-east.","intent":{"goal":"reach_dry_land","progr
+- 17:34 act: {"actions":[{"do":"goto","target":{"x":-946,"y":70,"z":-2270}}],"say":"Nikola, night, still in the lake. Trying the shore by the acacia logs.","intent":{"goal":"reach_shore","program":"travel","argume
+- 17:35 act: {"actions":[{"do":"attack","target":"drowned"}],"intent":{"goal":"survive_drowned","program":"flee","arguments":{},"wake_on":["goal_completed","precondition_failed","directly_addressed"],"limits":{"ma
+- 17:36 act: {"actions":[{"do":"goto","target":{"x":-946,"y":71,"z":-2274}}],"intent":{"goal":"reach_trees_away_from_skeleton","program":"travel","arguments":{"target":{"x":-946,"y":71,"z":-2274}},"wake_on":["goal
+- 17:36 act: {"actions":[{"do":"goto","target":{"x":-950,"y":70,"z":-1500}}],"intent":{"goal":"reach_inbounds_land","program":"travel","arguments":{"target":{"x":-950,"y":70,"z":-1500}},"wake_on":["goal_completed"
+- 17:37 act: {"actions":[{"do":"attack","target":"drowned"},{"do":"attack","target":"drowned"},{"do":"attack","target":"drowned"}]}
+- 17:37 act: {"actions":[{"do":"goto","target":{"x":-950,"y":70,"z":-1500}}],"intent":{"goal":"reach_inbounds_land","program":"travel","arguments":{"target":{"x":-950,"y":70,"z":-1500}},"wake_on":["goal_completed"
+- 17:37 act: {"actions":[{"do":"goto","target":{"x":-963,"y":79,"z":-3010}}],"say":"Nikola, respawned at spawn with nothing. Phantoms north. Staying close to Curie and the group."}
+- 17:40 act: {"actions":[{"do":"goto","target":{"x":-934,"y":86,"z":-2992}}],"say":"Nikola, dawn, empty-handed. Walking to the jungle log to the south-east in sight of the group, with Mulan if she comes.","intent"
+- 17:40 act: {"actions":[{"do":"goto","target":{"x":-959,"y":78,"z":-3010}}],"say":"Nikola, unarmed, no pack. Could someone spare 2 planks or a stick? I will make a sword at the table."}
+- 17:40 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Magellan, could you spare 2 planks? I have nothing, and I'll make a sword at the table."}
+- 17:40 act: {"actions":[{"do":"goto","target":{"x":-959,"y":78,"z":-3010}}]}
+- 17:41 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Magellan, Nikola here, empty-handed. Two planks please, when you can spare them."}
+- 17:41 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Thank you Magellan. I see no planks in my pack yet; please hand them over or drop them at my feet."}
+- 17:41 say: {"text":"Nikola: I still have nothing in my pack. Is there a plank lying 2-3 blocks south-west of me? I'll pick it up if so."}
+- 17:42 say: {"text":"Nikola: Magellan, thank you for the planks, but they never reached my pack. I'm still empty. Anyone with a spare stick, I'll trade thanks and help carry logs."}
+- 17:45 act: {"actions":[{"do":"goto","target":{"x":-965,"y":79,"z":-3007}}],"say":"Nikola, still empty, hunger 20. Jason, if your last stick is spare, I'm in reach at the tables. Anyone who can spare a plank, I'l
+- 17:48 say: {"text":"Nikola, in reach at the tables, empty and unarmed. Janeway, your one stick to me if you can reach me. Uhura, if your spare sword is still free after Crusoe, I'd take it too."}
+- 17:50 say: {"text":"Nikola, at the tables, dusk, empty and unarmed. Katniss, you have 3 sticks: one to me if you can reach me, please. I'll stay in the group's sight for the night."}
+- 17:51 say: {"text":"Thank you Katniss and Seven, I have one stick now. A wooden sword also needs 2 planks, so whoever has planks in reach, please hand me 2 and I'll craft at the table."}
+- 17:52 act: {"actions":[{"do":"goto","target":"ag_katniss_01"}],"say":"Phantom on me, unarmed. Katniss, I'm moving to your side; please strike it."}
+- 17:54 act: {"say":"Magellan, I'm in reach with 1 stick and no sword. Could you hand me 2 planks? I'll craft a sword at the table here.","actions":[]}
+- 17:55 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}],"say":"Thank you Magellan. Crafting my sword now."}
+- 17:55 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Sword made. Heading back to Magellan's side."}
+- 17:56 act: {"actions":[],"say":"Tesla, sword in pack, close to Magellan. I'll strike phantoms that reach us. Watson, Bilbo, stay near the group till light."}
+- 17:59 act: {"actions":[{"do":"goto","target":{"x":-975,"y":83,"z":-3016}}],"say":"Dawn. I have a sword. Going to the cow at -976,83,-3017 with Sacagawea and Magellan."}
+- 18:00 act: {"actions":[{"do":"goto","target":"ag_sacagawea_01"}],"say":"Huck, walking with you. Sacagawea, I'm coming to you; then we go to the cow together."}
+- 18:00 act: {"actions":[{"do":"goto","target":{"x":-976,"y":83,"z":-3017}}],"say":"Huck, Sacagawea, I'm with you now. Heading to the cow at the west edge of the camp."}
+- 18:00 say: {"text":"Tesla here, armed with a wooden sword. The cow is past my reach, so I'll follow Huck and strike if it comes in reach."}
+- 18:04 say: {"text":"Tesla, armed with a wooden sword, hunger 17. Data, Hypatia: I'll join your wood party in daylight and stay in your sight. Say when you go."}
+- 18:05 say: {"text":"Tesla, going with the wood party, armed. Trees: a jungle log at -934, 87, -2992, southeast of the tables. Coordinate walks are refused here, so we walk by name, in sight."}
+- 18:05 act: {"actions":[{"do":"goto","target":"ag_hypatia_01"}],"say":"Tesla moving with Hypatia's wood party, armed, in sight."}
+- 18:05 say: {"text":"Tesla: I'm still at the tables; my walks go nowhere far from here. Hypatia, you lead, and I'll follow when you are walking."}
+- 18:06 act: {"actions":[{"do":"goto","target":{"x":-934,"y":87,"z":-2992}}],"intent":{"goal":"reach_jungle_logs","program":"travel","arguments":{"target":{"x":-934,"y":87,"z":-2992}},"wake_on":["directly_addresse
+- 18:07 say: {"text":"Tesla: no route by name yet; the log is out of reach for my walk. I'll stay here in sight and follow whoever finds a way."}
+- 18:13 act: {"actions":[{"do":"attack","target":"phantom"}]}
+- 18:19 say: {"text":"Tesla, dawn, armed with a wooden sword, health 20, hunger 17. I'm staying with the group. Looking for food, and I'll follow anyone who knows where the cows or ripe crops are."}
+- 18:21 say: {"text":"Tesla, morning, armed, health 20, hunger 17. I know no food nearby. Whoever knows where the cow is, say the place and I'll walk with the group. Hypatia, is the wood party leaving?"}
+- 18:21 say: {"text":"Tesla here, armed. Spock, I'm right beside you. Striking any phantom that comes into my reach."}
