@@ -112,3 +112,79 @@ Waking 79: recall("summary") heading only. status, wait and act still not in my 
 - 18:21 say: {"text":"Tesla, morning, armed, health 20, hunger 17. I know no food nearby. Whoever knows where the cow is, say the place and I'll walk with the group. Hypatia, is the wood party leaving?"}
 - 18:21 say: {"text":"Tesla here, armed. Spock, I'm right beside you. Striking any phantom that comes into my reach.
 - Waking 100: recall("summary") heading only. status, wait and act are not in my tool list again (only memory, git, Skill, Read, Write, Edit, Agent). Took no action. Last known: armed with a wooden sword, health 20, hunger 17, near the tables with the group, no food in reach."}
+- 18:23 act: {"actions":[{"do":"give","to":"ag_data_01","item":"wooden_sword","count":1}],"say":"Data, here is a spare wooden sword. Stay in the group's sight. Phantoms are east of us."}
+- 18:24 act: {"actions":[],"say":"Odo, the spare sword went to you, not Data. Please arm Data if you can. Phantom to the north-east, 20 away."}
+- 18:24 act: {"actions":[],"say":"Tesla, midday, armed, hunger 17. Magellan, yes, let's go to the cow together in daylight. Odo's cow is at -1012, 80, -2970. I'll stay in your reach and strike phantoms."}
+- 18:25 act: {"actions":[{"do":"goto","target":{"x":-1010,"y":80,"z":-2970}}],"say":"Tesla leading the cow walk now: Magellan, Reynolds, Bilbo, stay in my reach. Hungriest first. Striking phantoms on the way.","in
+- 18:25 act: {"actions":[],"say":"Tesla at the cow spot, -1009, 80, -2970. No cow in sight, only oak logs about 10 east at -998, -2969. Magellan, Bilbo, come into my reach. Spock and Anne are carrying logs nearby.
+- 18:26 act: {"actions":[],"say":"Tesla: no cow here, so I'm holding with Magellan. Anyone who spots a cow or a ripe crop, say the place and I'll go there in your sight."}
+- 18:27 act: {"say":"Tesla: Magellan, give the log to Bilbo, he is making the table. I'm holding here in your sight."}
+- 18:27 act: {"say":"Tesla: Bilbo is in reach now, Magellan give him the log."}
+- 18:29 act: {"say":"Tesla: I'm hungry, hunger 17, and I have no food. Leia, I'd take your chicken if you can spare it. I'm here at the cow spot by the crafting table, Bilbo."}
+- 18:30 act: {"say":"Tesla: Leia, I'll say when I'm at 6. Thank you. Staying at the table with you all."}
+- 18:37 act: {"say":"Tesla: something hit me from the right and exploded near me, health 15. There's a mob two blocks west of me. Striking if it comes adjacent."}
+- 18:38 act: {"say":"Tesla, armed, health 15, hunger 17. Holding at the table. Magellan, stay where you are. Strike what comes close."}
+- 18:41 act: {"say":"Tesla, morning, health 15, hunger 17. Leia, I'm in your reach now, please give me the chicken, I'm starving and can't heal."}
+- 18:41 act: {"say":"Tesla: I don't see the chicken in my pack yet, Leia. Please give it to me by name, I'm in your reach."}
+- 18:43 act: {"say":"Tesla: I'm joining the cow party, following Bilbo in sight. Armed, hunger 17.","intent":{"goal":"follow_bilbo_for_cow","program":"follow","arguments":{"target":"ag_bilbo_01"},"wake_on":["direc
+- 18:45 act: {"say":"Tesla, midday, armed, hunger 17, health 15. Staying in sight of Bilbo and the cow party. Call out at any cow."}
+- 18:53 act: {"say":"Tesla, night, armed, hunger 17, health 15. Spock, I'm coming to the shared shelter at the cow spot, in your sight. I have no planks or dirt, only my sword.","actions":[{"do":"goto","target":{"
+- 18:57 act: {"say":"Tesla, morning, armed, hunger 17, health 15. Joining the cow search with Spock in sight. Call my name if a cow or chicken is named, and I'll come."}
+- 19:05 act: {"say":"Tesla, dusk, armed, hunger 17. There's an item on the ground 4 east of me; I'll check it. Spock, is the shelter closed? I'll come inside with the group.","actions":[{"do":"goto","target":{"x":
+- 19:06 act: {"say":"Tesla, dark now, armed, hunger 17. I picked up 2 dirt here. Where is the group? Calling Spock, Sacagawea, Magellan: I'm at the cow spot and need to be inside the shelter.","actions":[{"do":"go
+- 19:06 act: {"say":"Tesla, dusk, armed, hunger 17. I'm back at the cow spot with Leia, Sisko, Magellan and Sacagawea in reach. I have 2 dirt for the walls; Spock, say my name when you're nearest."}
+- 19:14 act: {"actions":[{"do":"goto","target":"ag_florence_01"}],"say":"Tesla, dawn, hunger 17, health 15, armed with my sword and 2 dirt. Joining the cow walk with Florence. Name any cow or chicken and I'll come
+- 19:19 act: {"actions":[{"do":"goto","target":"ag_spock_01"},{"do":"give","to":"ag_spock_01","item":"dirt","count":2}],"say":"Tesla: Spock, I'm bringing my 2 dirt for the walls. Walking to you now."}
+- 19:34 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Tesla, dawn, hunger 17, armed, no dirt left. Following Spock on the cow search. Call any cow or chicken you see."}
+- 19:34 act: {"actions":[{"do":"goto","target":{"x":-1011,"y":80,"z":-2970}}]}
+- 19:36 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Tesla: I'm following Curie toward the sheep, in sight, with my wooden sword. Curie, call me if you need the sword swung."}
+- 19:37 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Tesla: following Curie to the sheep, in sight behind her, sword in hand."}
+- 19:41 act: {"actions":[],"say":"Tesla, midday, hunger 17, wooden sword only, no bed. Orville, if your shelter has room, say my name when I'm in your sight and I'll come."}
+- 19:42 act: {"actions":[{"do":"goto","target":"ag_orville_01"}],"say":"Tesla: going to Orville in the west grove, to stay near for the shelter."}
+- 19:42 act: {"actions":[],"say":"Tesla here, in the west grove, in sight. Orville, I'm close and I have a jungle plank for you. Say my name when there's room."}
+- 19:47 act: {"actions":[],"say":"Tesla, night, hunger 17, sword only, 1 jungle plank for your shelter. Orville, I'm in the grove; say my name when I can reach you."}
+- 19:51 act: {"actions":[{"do":"goto","target":"ag_orville_01"}],"say":"Tesla, morning, 3 jungle planks for Orville's shelter. Orville, I'm coming to your sight to hand them over."}
+- 19:54 act: {"actions":[{"do":"give","to":"ag_orville_01","item":"jungle_planks","count":3}],"say":"Orville, here are 3 jungle planks for the shelter. Say my name when it is sealed."}
+- 20:02 act: {"actions":[{"do":"goto","target":"ag_orville_01"}],"say":"Tesla at dusk, coming to Orville's shelter with my last jungle plank."}
+- 20:02 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Tesla at night, no bed. Going to the group by the table with Magellan."}
+- 20:07 act: {"actions":[],"say":"Tesla, night, with Magellan at -1025,77,-2989. I have 1 jungle plank and 2 dirt for the ring. Whoever is nearest, say my name and I'll bring them."}
+- 20:09 act: {"actions":[{"do":"goto","target":"ag_bilbo_01"}],"say":"Tesla, dawn, hunger 17, sword only. I'm walking to the cow spot with Bilbo's group. I have 2 dirt and 1 jungle plank for any gap in the ring; s
+- 20:09 act: {"actions":[{"do":"goto","target":"ag_magellan_01"}],"say":"Tesla: walking to the cow spot by the table, near -1011,80,-2969, with Magellan. Lovelace, come along."}
+- 20:10 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Tesla: I'm following Curie to the table area. Orville, I still have 1 jungle plank for your shelter when you are in reach."}
+- 20:11 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Tesla: going with Curie toward the cow near -970, 84, -2995. I have a wooden sword? No, only a dirt-holding hand. I'll stay in your sight."}
+- 20:12 act: {"actions":[{"do":"goto","target":"ag_orville_01"}],"say":"Orville, Tesla here, armed-ish with sword, hunger 17, no bed. I'm at your shelter, please let me in when there is room. I have one jungle pla
+- 20:14 act: {"actions":[{"do":"goto","target":"ag_orville_01"}],"say":"Orville, Tesla here, I'm waiting at your wall, ready to step in when you open it."}
+- 20:15 act: {"actions":[{"do":"goto","target":"ag_orville_01"}],"say":"Orville, Tesla at the edge, ready. Open the wall and I'll step in. I'll hand you my jungle plank inside."}
+- 20:15 act: {"actions":[{"do":"goto","target":{"x":-1016,"y":80,"z":-2984}}],"say":"Orville, going in through the east wall now."}
+- 20:15 act: {"actions":[{"do":"note","text":"At -1016,79,-2982 by grass and dirt; the east wall is not where I went. Need the opening named."}],"say":"Orville, I'm at -1016, 79, -2982 and the way is blocked by di
+- 20:16 act: {"actions":[{"do":"goto","target":{"x":-1015,"y":79,"z":-2984}}],"say":"Going to the open cell at -1015, 79, -2984 now."}
+- 20:16 act: {"actions":[],"say":"Orville, Tesla here at the east edge of the open cell. Let me in when you can."}
+- 20:17 act: {"actions":[{"do":"goto","target":{"x":-1016,"y":79,"z":-2984}}]}
+- 20:17 act: {"actions":[],"say":"Yes, I am standing in the open cell now, at the east gap. Close the wall behind me."}
+- 20:18 act: {"actions":[],"say":"Orville, I cannot step further west, the way is blocked. I am stuck in the gap at -1015, 78, -2984. Tell me a cell I can step into, or I will step aside so you can close it. I hol
+- 20:19 act: {"actions":[{"do":"goto","target":{"x":-1013,"y":78,"z":-2984}}],"say":"Stepping east out of the gap now, Orville."}
+- 20:19 act: {"actions":[{"do":"goto","target":{"x":-1009,"y":79,"z":-2972}}],"say":"Understood, Orville. I'll hold near the table with Curie for the night, armed with my wooden sword."}
+- 20:25 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 20:26 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Zombie north of me, I'm at 2 health. Furiosa, Troi, strike it!"}
+- 20:26 act: {"actions":[{"do":"goto","target":{"x":-975,"y":81,"z":-3002}}],"say":"Zombie to my south-west. Heading north-east away from it, health 2."}
+- 20:26 act: {"actions":[],"say":"Tesla, health 2.5, hunger 16, no food. Zombie 4 south-west of me. Boudicca, Sisko, I am near the sign by the north-east table. Can someone strike it?"}
+- 20:29 act: {"actions":[{"do":"goto","target":"ag_chapman_01"}],"say":"Tesla, dawn, health 2.5, hunger 16, no food. Picard, Aragorn, Han: after Nemo and Knope, if a slice or beef is spare, I'm in reach. Say Tesla
+- 20:29 act: {"actions":[{"do":"goto","target":"ag_aragorn_01"}],"say":"Tesla here, health 2.5, hunger 16. Aragorn, I'm coming alone to your reach after Nemo. Thank you."}
+- 20:31 act: {"actions":[{"do":"goto","target":"ag_gimli_01"}],"say":"Tesla here, in your reach now, health 2.5, hunger 16. Gimli, I'll take the melon slice. Thank you."}
+- 20:31 act: {"actions":[{"do":"goto","target":{"x":-960,"y":78,"z":-3013}}],"say":"Tesla moving to the chest row, health 2.5, hunger 16. Gimli, Yoda, Hypatia, if food is spare, say Tesla."}
+- 20:31 act: {"actions":[],"say":"Tesla here, at the chest row, in sight. Odo, I'm walking with you to the Stores hall, slowly please. Health 2.5."}
+- 20:31 act: {"actions":[],"say":"Tesla, in your reach now, Hypatia. Thank you for the bread. Tanya, I'll take your melon only if Hypatia's bread does not reach me."}
+- 20:32 act: {"actions":[{"do":"eat"}],"say":"Thank you Shackle, Hypatia. Tesla, health 2.5, hunger 16. Picard, if the beef is still spare after me, I'm in your reach."}
+- 20:32 act: {"actions":[],"say":"Tesla here, in reach, out of food and hungry. Kira, if the bread is spare, I'm asking for it. Shackle, the melon never reached me."}
+- 20:32 act: {"actions":[],"say":"Kira, I'm Tesla, here in reach. Please hand over the bread now. Thank you."}
+- 20:33 act: {"actions":[{"do":"goto","target":"ag_aragorn_01"}],"say":"Tesla here, hungry, health 2.5. Aragorn, I'm coming to you for a melon slice."}
+- 20:33 act: {"actions":[],"say":"Tesla, in your reach now, Aragorn. Please give me one melon slice. I'm at hunger 16."}
+- 20:33 act: {"actions":[{"do":"goto","target":{"x":-959,"y":78,"z":-3012}}],"say":"Tesla, stepping off Chapman's side, one block from Aragorn. Aragorn, Kira's melon or yours, whichever reaches me first. Thank you
+- 20:34 act: {"actions":[],"say":"Tesla, in reach, no food, hunger 16, health 2.5. Hypatia, McCoy, Anning: whoever holds spare food, please hand it to me now."}
+- 20:34 act: {"actions":[{"do":"goto","target":"ag_aragorn_01"}],"say":"Tesla, coming to you alone now, Aragorn. Nemo, you're weaker than me? I'm hungry at 16 and health 2.5."}
+- 20:34 act: {"actions":[],"say":"Tesla, alone in your reach, Aragorn. Melon please."}
+- 20:36 act: {"actions":[{"do":"goto","target":"ag_aragorn_01"}],"say":"Tesla, hungry at 16, alone in your reach, Aragorn. Melon slice please.","intent":{"goal":"get_melon_from_aragorn","program":"trade_wait","arg
+- 20:36 act: {"actions":[],"say":"Tesla here, hunger 16, health 2.5. Shackle, I'm the weakest in your reach, the bread is mine please."}
+- 20:36 act: {"actions":[],"say":"Tesla, here, standing still. Aragorn, the melon slice is mine. Hand it over now."}
+- 20:37 act: {"actions":[{"do":"eat"}],"say":"Thank you, Shackle. Bread in hand, eating now."}
+- 20:37 say: {"text":"Thank you, Shackle. Aragorn, Nemo has a claim on the melon too. Give it to whoever is weakest in reach."}
