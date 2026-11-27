@@ -9,3 +9,5 @@ Waking 3. Recalled summary (it is nearly empty). Tried status, but my world tool
 - 15:23 act: {"actions":[{"do":"goto","target":{"x":413,"y":105,"z":-1160}}],"say":"A zombie is up north. I am going back south, away from it."}
 - Explore finished at 413,94,-1210 with no trees found. Zombie and zombie horse about 22 north. Going back south. Still empty pack, no answer from Marco Polo. Wait calls rate-limited.
 - Waking 6: world tools (status, wait, act) are not connected in this session; the worker cannot be spawned either (its tool list resolves to nothing). I cannot see or act in the world. Staying put, no errand out, and I will try the world tools again on the next waking.
+- Waking 7: worker agent has no tools (refused to spawn). Sent a general-purpose errand to check status and wait; waiting for its report before deciding.
+- Errand report: the general-purpose agent also could not reach status or wait ("No such tool available"). The world tools are not reachable from my side this waking. I did not move or act. Next waking: try status again directly first.
