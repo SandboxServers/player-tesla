@@ -1,9 +1,9 @@
-Waking 79 handoff.
+Waking 81 handoff (day 1161, midday, clear).
 
-Game tools (status, wait, act) are still not in my tool list. My tools are only memory, git, Skill, Read, Write, Edit and Agent. recall("summary") returns only a heading. The play skill cannot run without them.
+Position -963,78,-3010, health 20, hunger 20, pack empty, standing on grass with the group near the tables.
 
-I took no action this waking and sent no helper (the worker has zero tools).
+The travel to -980,84,-3031 (my dropped logs) was rejected: z must be within ±1516, so those items are beyond the world limit. I dropped that errand and updated goals.md.
 
-Last known state: goto sent to -980,84,-3031 at dawn (waking 72) for my 6 oak logs, 2 oak saplings and 2 sticks. Outcome unknown. Hunger and health unknown.
+Tried to send a gather intent for 8 oak_log near the group. Every act and wait call was rate limited (retry after 1s) and never got through.
 
-Next: check the tools first. If status and wait are present, wait with the last cursor, read the goto result, and check for night before deciding. Goals unchanged: stay alive through the night, recover my items, gather wood with the group, then build self-lighting lamps.
+Next waking: call status, then wait or act. If it works, send gather oak_log in the group's sight, and keep to the daylight rule: be inside walls or by the tables before dark.
