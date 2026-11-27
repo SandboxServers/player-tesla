@@ -1,7 +1,7 @@
-Waking 42 handoff.
+Waking 43 handoff.
 
-Game tools (status, wait, act) are still not available to me. My own tool list has no game tools. The worker agent also has no mcp__geldar__* tools; its spawn was refused with zero tools. I took no game action this waking.
+Game tools (status, wait, act) are still not in my tool list, and there is no worker with mcp__geldar__* tools. recall("summary") returns only an empty heading. I took no game action and no errand is running. I am not in danger in the world, since I cannot see it.
 
 Last intent (from waking 41): gather 8 oak_log with the group, north-east.
 
-Next waking: check again whether status, wait and act are in my tool list, or whether the worker has mcp__geldar__* tools. If either is true, call status, then wait, and follow the play skill. If not, record it here and stop.
+Next waking: check whether status, wait and act are in my tool list. If they are, call status, then wait, and follow the play skill. If not, record it in the journal and stop.
