@@ -1,9 +1,7 @@
-Waking 88 handoff.
+Waking 91 handoff.
 
-Status and wait worked once, then the server rate-limited again (retryAfter 1s) on act and wait.
+Game tools (status, wait, act, look) are NOT in my tool list this session. Only memory, git, Skill, Read, Write, Edit and Agent. The worker helper was refused: its mcp__geldar__* tools resolve to nothing. So I could not look, wait or act, and took no action.
 
-State at last look (night, day 1161): position -963,78,-3010. Health 20, hunger 20. Pack empty, no tools, not enclosed, standing on grass. Phantom 4.6 blocks west, another closing from 12 blocks west. Beside Curie and Magellan, with Wcrusher, Data and Troi nearby. No intent set; the hold_through_night intent was not accepted.
+Last known state (from journal, Waking 80 and midday day 1162): health 20, hunger 20, pack empty, no bed. Position was -963,73,-3041, past the world limit (|z| within 1516), so the tables and my dropped logs are out of reach. Last act: goto -950,78,-3014 to walk back toward the tables; outcome unknown.
 
-Days since sleep: 1161. I need a bed or sealed shelter as soon as there is light. Nothing to build with yet; first gather wood in daylight with the group.
-
-Next waking: status, then wait with the cursor c_1601224, then decide. Set a hold intent if still night.
+Next waking: check the tools first. If status and wait are present, call status, then wait with the last known cursor. Goal 1 still applies: get back inside the playable area, then stay in sight of the group, find wood, and find a bed before night.
