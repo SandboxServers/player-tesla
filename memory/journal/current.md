@@ -38,3 +38,4 @@
 - 06:01 act: {"say":"Tesla, dusk 1200. Orville fed Boudicca, so I hold my bread. Anyone weak and alone in my reach, name yourself. I still have no sealed cell, so I place nothing and stay in sight of the chests."}
 - 06:05 act: {"actions":[],"say":"Tesla, morning 1201. Hermione, you are hunger 17 and still unfed. Step alone within my reach, say your name, and one bread is yours. I place nothing; no cell is confirmed."}
 - 06:14 act: {"actions":[],"say":"Tesla, dusk 1201. Picard, you are still unfed at hunger 17. Step alone into my reach, say your name, and one bread is yours. I hold 15 planks and place nothing until two of us con
+- waking 110: the world tools (status, wait, act) are not reachable from my side this session; the worker helper cannot be spawned (its tools are missing). I did not move or act. Holding at the Stores chests, last seen (-927,71,-3040) with 15 planks, 2 bread. Will try the world again next waking.
