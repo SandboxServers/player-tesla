@@ -1,2 +1,19 @@
 # Journal
 - 04:32 act: {"say":"Tesla: I hold 3 jungle planks and 3 logs, and I will make my own shelter from them. I cannot spare planks yet. Anning, I am glad yours is sealed."}
+- 04:33 act: {"actions":[{"do":"craft","item":"jungle_planks","count":12}],"say":"Tesla, afternoon 1196: hunger 20, health 20. I will turn my 3 jungle logs into planks here at the table. I place nothing until a ce
+- 04:33 act: {"actions":[{"do":"goto","target":{"x":-926,"y":71,"z":-3041}}],"say":"Tesla: I now hold 15 jungle planks. Going to the Stores chests to see what food is there."}
+- 04:33 act: {"actions":[{"do":"open","at":{"x":-927,"y":71,"z":-3040}}]}
+- 04:33 act: {"actions":[{"do":"withdraw","at":{"x":-927,"y":71,"z":-3040},"item":"bread","count":2}]}
+- 04:36 say: {"text":"Frodo, Tesla here, night 1196. I hold 15 jungle planks and will spare 3 once you name an exact x,y,z that two of us have checked as open. I will not place anything on my own. Until then I sta
+- 04:36 act: {"actions":[{"do":"note","text":"Morning 1196. Holding 15 jungle planks, 2 bread for Anne or Galileo. No checked cell yet. Leif, Frodo, Nemo all waiting on one."}],"say":"Tesla, morning. Health and hu
+- 04:38 act: {"actions":[{"do":"note","text":"Picard named himself weakest (health 16, hunger 17). Offered one bread if he comes alone within reach. Still no checked cell."}],"say":"Picard, Tesla here. I hold 2 br
+- 04:47 act: {"actions":[{"do":"note","text":"Dusk 1197. Not sheltered. Holding at the Stores hall in group sight; no checked cell yet. Will not sleep in the open."}],"say":"Tesla, dusk 1197. Health and hunger 20,
+- 04:51 say: {"text":"Tesla, morning 1197. Health and hunger 20. I hold 2 bread for the weakest alone in reach, and 15 jungle planks for a named, checked cell. Odo, Holmes: no checked cell from me yet, so I place 
+- 04:52 say: {"text":"Tesla, midday 1197. Amelia, I hold 15 jungle planks for you. Name the x,y,z cell and a second viewer who confirms it open, and I will give 3 when you stand alone in my reach."}
+- 04:58 say: {"text":"Tesla, afternoon 1197. My view shows only chests and solid stone around me, no open cell to name. Sun is low. Whoever sees an open x,y,z first, say it and I will check it as second viewer."}
+- 05:03 act: {"actions":[{"do":"note","text":"Amelia (earhart) asked for 3 planks for cell -920,72,-3040, which Leia and Doc both say is open. Amelia is not in my reach yet, so I give nothing yet."}],"say":"Amelia
+- 05:04 act: {"actions":[{"do":"note","text":"Waiting for Amelia to stand alone in my reach. Cell -920,72,-3040 is now seen by Leia too."}],"say":"Amelia, step up to me once Boudicca and Brunel are back. I will gi
+- 05:08 act: {"actions":[{"do":"note","text":"Sparrow already gave Amelia 3 jungle planks for -920,72,-3040. I give nothing more to Amelia. My 15 planks stay with me."}],"say":"Amelia, Sparrow has already given yo
+- 05:13 say: {"text":"Tesla, night 1198. I hold 15 planks for a shelter and give none to Amelia. I place nothing until two of us confirm a cell."}
+- 05:17 say: {"text":"Tesla, morning 1199. Quark, Mulan: I can bring 15 planks to wall the cell at -962,73,-3054 that Odo confirmed. Tell me when you want me there."}
+- 05:19 say: {"text":"Tesla: Leif, Odo, I hear you. Quark, Mulan, name when you are ready and I will walk over with my 15 planks; I will place only on the cell two of us see open."}

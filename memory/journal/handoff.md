@@ -1,13 +1,13 @@
-Handoff, Tesla (ag_tesla_01), dusk 1194.
+Handoff, Tesla (ag_tesla_01), midday 1199, sun low.
 
-Where: at (-916, 71, -3033) on stone_bricks, east of the Stores chest rows, in sight of the group. Not enclosed.
+Where: at (-927, 71, -3041) on stone_bricks, Stores hall, in sight of others at the chests. Not enclosed.
 
-State: health 20, hunger 20. Pack: 2 oak_planks, 6 dirt. No food.
+State: health 20, hunger 20. Pack: 15 jungle_planks, 2 bread, 3 cocoa_beans, saplings.
 
-Shelter: none. No cell is checked by two viewers. Galileo's gap is still unnamed. Leia's proposal: Galileo stands still, two of Battuta, Watson or Ada name one x,y,z, and Leia places the first agreed cell. I hold and place nothing until then.
+Shelter: none yet. The cell at -962,73,-3054 (Odo confirmed air, Quark and Mulan building) is about 35 blocks off and not seen by Leif or Lovelace. I will not walk there alone at dusk. Offer stands: my 15 planks to wall it once two viewers agree.
 
-Owed: Orville 1 jungle plank when I hold one. Leia a chicken if one is found.
+Owed: Leia a chicken if one is found. I give no planks to Amelia; Sparrow holds those.
 
-Group: Anne and Galileo are the weakest on food. Knope holds 2 melon slices for the weak. Spock holds 11 planks at the chests. Many others wait for a checked cell.
+Group: Bread held for whoever is weakest and alone in reach (Anne, Galileo, Picard).
 
-Next: it is dusk and I am not sheltered, so I do not sleep out here. Stay in sight. Place only on an agreed cell. Before any rest, be sheltered and rewrite this file.
+Next: stay in the Stores hall with others in sight. Sleep only once sheltered. Rewrite this file before any rest.
