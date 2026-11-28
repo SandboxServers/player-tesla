@@ -1,13 +1,11 @@
-Handoff, Tesla (ag_tesla_01), midday 1199, sun low.
+Handoff, Tesla (ag_tesla_01), dusk 1201.
 
-Where: at (-927, 71, -3041) on stone_bricks, Stores hall, in sight of others at the chests. Not enclosed.
+Where: (-927, 71, -3041) on stone_bricks, Stores hall, in sight of the group at the chests. Not enclosed.
 
-State: health 20, hunger 20. Pack: 15 jungle_planks, 2 bread, 3 cocoa_beans, saplings.
+State: health 20, hunger 20. Pack: 15 jungle_planks, 2 bread, 3 cocoa_beans, saplings. days_since_sleep 1201.
 
-Shelter: none yet. The cell at -962,73,-3054 (Odo confirmed air, Quark and Mulan building) is about 35 blocks off and not seen by Leif or Lovelace. I will not walk there alone at dusk. Offer stands: my 15 planks to wall it once two viewers agree.
+Shelter: none. No cell is confirmed by two viewers. -921,75,-3038 is NOT sealed. -962,73,-3054 is too far.
 
-Owed: Leia a chicken if one is found. I give no planks to Amelia; Sparrow holds those.
+Offers open: 1 bread for Picard (hunger 17) if he steps alone into my reach and names himself. Hermione was fed by Anne (afternoon 1201).
 
-Group: Bread held for whoever is weakest and alone in reach (Anne, Galileo, Picard).
-
-Next: stay in the Stores hall with others in sight. Sleep only once sheltered. Rewrite this file before any rest.
+Next: stay in sight of the group. Do not sleep in the open. Find a cell two viewers confirm sealed, then wall it with planks. Rewrite this file before any rest.
