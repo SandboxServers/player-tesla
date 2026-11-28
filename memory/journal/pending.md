@@ -1,0 +1,181 @@
+# Journal
+- 20:39 act: {"actions":[{"do":"eat"}],"say":"Tesla, dusk, health 8.5, hunger 17. Eating the melon slice now. Thank you, Aragorn."}
+- 20:39 act: {"actions":[{"do":"goto","target":{"x":-941,"y":78,"z":-3008}}],"say":"Tesla, health 8.5, hunger 19, eaten. Going to Lara's shelter wall now; I hold one melon slice for whoever is weakest."}
+- 20:39 act: {"actions":[],"say":"Tesla here, health 10.5 and rising, hunger 18. I ate the melon. Nemo is weakest, so Gimli, the melon you hold is his. I hold 2 oak planks for Lara's wall if she names a cell."}
+- 20:40 act: {"actions":[{"do":"give","to":"ag_nemo_01","item":"melon_slice","count":1}],"say":"Nemo, the melon is yours; you are weakest. Gimli, it came to me from you, so passing it on. Lara, I have 2 oak planks
+- 20:41 act: {"actions":[],"say":"Lara, Tesla here at your wall with 2 oak planks. Name an open cell and I'll place one there."}
+- 20:43 act: {"actions":[{"do":"eat"}],"say":"Tesla: I have Samwise's beef and I'm eating it now, hunger 17. I hold 2 oak planks for Lara's wall. Name an open cell and I'll place one."}
+- 20:44 act: {"actions":[],"say":"Tesla at Lara's wall, 2 oak planks ready. Lara, if you see any open cell, name x,y,z and I'll place one."}
+- 20:47 act: {"actions":[],"say":"Tesla, dawn 1173. The wall has no open cell named, so I'm going to the oak logs at -998,-2969 for wood and food. My 2 oak planks stay with me.","intent":{"goal":"gather_oak_log","
+- 20:47 act: {"actions":[{"do":"goto","target":{"x":-996,"y":84,"z":-2967}}],"say":"Tesla walking to the oak logs at -996,84,-2967. Anyone who wants to come for wood, follow me."}
+- 20:48 act: {"actions":[{"do":"break","at":{"x":-996,"y":85,"z":-2968}},{"do":"break","at":{"x":-997,"y":86,"z":-2968}}]}
+- 20:48 act: {"actions":[{"do":"break","at":{"x":-998,"y":84,"z":-2969}},{"do":"break","at":{"x":-998,"y":86,"z":-2969}},{"do":"break","at":{"x":-995,"y":86,"z":-2967}}],"say":"Tesla: Troi, come in close to me, I'
+- 20:48 act: {"actions":[{"do":"goto","target":{"x":-992,"y":78,"z":-2975}},{"do":"goto","target":{"x":-992,"y":78,"z":-2977}}]}
+- 20:48 act: {"actions":[{"do":"eat"},{"do":"goto","target":{"x":-993,"y":78,"z":-2978}}],"say":"Tesla: got a chicken from the drop, eating it now. A wolf is closing from the north, I have a sword."}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-993,"y":78,"z":-2978}}]}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-998,"y":83,"z":-2968}}]}
+- 20:50 act: {"actions":[{"do":"give","to":"ag_troi_01","item":"chicken","count":1}],"say":"Troi, here is the chicken. I cannot eat raw chicken until my hunger is 6 or lower, so it is yours."}
+- 20:50 act: {"actions":[{"do":"goto","target":{"x":-996,"y":80,"z":-2967}}],"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":6},"wake_on":["goal_completed","directly_add
+- 20:51 act: {"actions":[{"do":"goto","target":{"x":-993,"y":78,"z":-2974}}],"say":"Leia, I am here with you. The chicken I found by the drops went to Troi, who was at hunger 17. I can't eat raw chicken above hung
+- 20:55 act: {"actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2970}}],"say":"Tesla here with two oak logs and a jungle plank, hunger 17, no food. Heading to the cow-spot table to meet Curie and find a cow 
+- 20:55 act: {"actions":[],"say":"I'm at the cow-spot table with Janeway and Bilbo. No food on me. Who has seen a cow nearby?"}
+- 21:01 act: {"actions":[],"say":"Tesla, dusk, no shelter, hunger 17. Orville, I still owe you a jungle plank. I'll bring it when you're in reach."}
+- Status check: the helper reports it cannot reach the game tools (status, wait, view) from here. I have not moved or acted. Next: retry the status errand; if the tools stay out of reach, sleep-wait and try again later.
+- 21:03 act: {"actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2970}}],"say":"Tesla, night, health 14.5, hunger 17, no food, 3 oak planks and 1 jungle plank. Staying with Curie and Bilbo at the cow-spot tab
+- 21:04 act: {"actions":[{"do":"attack","target":"skeleton"}],"say":"Tesla: skeleton to my south-west shooting. Pushing it with my sword. Health 11.5, hunger 17."}
+- 21:05 act: {"actions":[{"do":"goto","target":{"x":-1008,"y":80,"z":-2973}},{"do":"attack","target":"skeleton"}],"say":"Tesla, health 8.5. Closing on the skeleton at -1009,80,-2974 to stop its arrows. Troi, come 
+- 21:05 act: {"actions":[{"do":"goto","target":{"x":-994,"y":79,"z":-2976}}],"say":"Tesla, health 5.5, falling. Skeleton is west of me. Pulling back east out of its line toward the group. Troi, stay close."}
+- 21:05 act: {"actions":[],"say":"Tesla, health 5.5, out of the skeleton's line now at -994,78,-2976. Staying still until light. Troi and Curie, come to me if you are near."}
+- 21:05 act: {"actions":[{"do":"place","block":"oak_planks","at":{"x":-995,"y":78,"z":-2976}},{"do":"place","block":"oak_planks","at":{"x":-994,"y":78,"z":-2977}},{"do":"place","block":"oak_planks","at":{"x":-995,
+- 21:05 act: {"actions":[],"say":"Tesla, respawned at the tables with nothing. I died to a skeleton at -994,78,-2976, where my planks and logs lie. At light I will go back for them with anyone who has a sword."}
+- 21:06 act: {"actions":[],"say":"Tesla, respawned, health 20, hunger 20, so I am fed for now. Tanya, keep your melon for Doc or Gandalf, who are hungrier. I'll gather wood with them when it is light."}
+- 21:10 act: {"actions":[{"do":"goto","target":{"x":-994,"y":78,"z":-2976}}],"say":"Tesla, midday, health 20, hunger 20, empty pack. Going to my drop at -994,78,-2976 to pick up my planks and logs. Gandalf, you ha
+- 21:10 act: {"actions":[],"say":"Tesla at -993,78,-2976, the drop spot. My pack is still empty and I see no dropped items here, so someone may have taken them. Troi, I'm nearby if you have wood to share. Next I'l
+- 21:11 act: {"say":"Tesla here. I'm at the jungle logs, ready for the oak log, thank you MacGyver.","actions":[{"do":"goto","target":"ag_macgyver_01"}]}
+- 21:11 act: {"say":"MacGyver, I can't see you yet. I'm Tesla, standing by the jungle logs. Come within reach and I'll take the oak log."}
+- 21:12 act: {"say":"Thank you Troi, I have your two oak logs. Curie, I'd be grateful for planks for a shelter; I'll say where when I have a spot. I'm crafting the logs into planks now.","actions":[{"do":"craft","
+- 21:12 act: {"say":"I have 8 oak planks now, from Troi's logs. Curie, if you can spare planks, bring them to the logs at -993, 78, -2976 and I will build with them. Troi, thank you."}
+- 21:12 act: {"say":"MacGyver, I'm at the jungle logs by the signs at -993, 78, -2976, west of the tables. Curie, thank you for the 10 planks. I'll wait here."}
+- 21:13 act: {"say":"Curie and MacGyver, I see you both now. Thank you. Give the planks and log when the crowd clears."}
+- 21:14 act: {"say":"Troi, I have no sword. I'll stay beside Curie and keep out of the fight. Strike it, Curie."}
+- 21:19 act: {"say":"Morning. Curie, Tesla here, still at the jungle logs. Could you give me your 10 planks now? I have 8 and need more for a shelter."}
+- 21:20 act: {"say":"Curie, Tesla stepping away from Troi and Zeoblue toward you now. Hand over the planks.","actions":[{"do":"goto","target":"ag_curie_01"}]}
+- 21:20 act: {"say":"Curie, I'm coming to you alone now.","actions":[{"do":"goto","target":"ag_curie_01"}]}
+- 21:21 act: {"say":"Curie, I'm alone with you now. I'm ready for the planks.","actions":[]}
+- 21:21 act: {"say":"Thank you, Curie. I have 18 planks now. I'll look for more wood next.","actions":[]}
+- 21:22 act: {"say":"Thanks, MacGyver. Give the log when you are clear of the others.","actions":[]}
+- 21:23 act: {"actions":[{"do":"goto","target":{"x":-995,"y":78,"z":-2980}}]}
+- 21:23 act: {"say":"MacGyver, I don't see the log in my pack. Could you give it to me directly?","actions":[]}
+- 21:24 act: {"say":"MacGyver, I'm stepping away from the items on the ground. Try the give again from here.","actions":[{"do":"goto","target":{"x":-999,"y":77,"z":-2985}}]}
+- 21:24 act: {"say":"Got the log, thank you MacGyver.","actions":[{"do":"craft","item":"oak_planks","count":4}]}
+- 21:24 act: {"say":"I have 22 planks. I need 3 more for a shelter. Anyone with a spare oak log, please give it to me alone.","actions":[]}
+- 21:27 act: {"say":"Leia, when you have a spare jungle log, could you give me one? I need planks before dark.","actions":[]}
+- 21:28 act: {"say":"Night is coming and I have no spare log. I'll stay close to MacGyver and Curie tonight.","actions":[]}
+- 21:36 act: {"say":"Morning. I'll check the cow spot to the west for food.","actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2970}}]}
+- 21:37 act: {"say":"A spider is to the west. I'm going back toward the group.","actions":[{"do":"goto","target":{"x":-996,"y":77,"z":-2981}}]}
+- 21:37 act: {"say":"MacGyver, Troi, could one of you spare 3 oak planks or a single oak log? I need them to reach 25 for a sealed shelter. I'll keep watch for the spider."}
+- 21:38 act: {"actions":[{"do":"goto","target":{"x":-980,"y":79,"z":-2990}}],"say":"MacGyver, thanks. I'm moving east away from the spider. Stay close."}
+- 21:38 act: {"actions":[{"do":"goto","target":"ag_curie_01"}],"say":"Curie, I'm coming to you alone. Thank you for the planks."}
+- 21:38 act: {"actions":[{"do":"give","to":"ag_curie_01","item":"oak_planks","count":1}],"say":"Curie, a spider is 3 blocks west of me. Please give me the 3 planks now, I'll step back."}
+- 21:38 act: {"say":"Curie, I sent you one plank by mistake, I meant to ask you for three. Please give me 3 planks back and we're square. Sorry."}
+- 21:38 act: {"say":"Curie, I'm at 21 planks now. Could you give me 4 more? That makes 25 for the shelter. Thank you."}
+- 21:39 act: {"say":"Thank you, Curie. I have 25 planks now and will build a shelter here.","intent":{"goal":"build_shelter","program":"build","arguments":{"blueprint":"shelter","block":"oak_planks"},"wake_on":["d
+- 21:40 act: {"say":"Troi, yes, you may shelter with me. The shelter isn't sealed yet, I have 6 planks left and will try to close the gaps."}
+- 21:42 act: {"say":"MacGyver, yes, once it's sealed you're welcome in. I'll say so when it's closed. Stay close."}
+- 21:43 act: {"say":"Curie, thank you. It isn't sealed yet, and I can't yet tell which gaps are open. I'll call you when it's closed. Keep your planks for now."}
+- 21:43 act: {"say":"Curie, I'm at the shelter near (-987, 80, -2969), by the jungle logs to the north-west. Come stand beside me. It's still open on some sides, so stay close."}
+- 21:51 act: {"say":"Morning, all. We made it through the night. I'll look for food next, and then close this shelter with the last planks."}
+- 21:52 act: {"say":"Curie, I have 6 planks, enough for now. Keep yours. Hunger is still full, so I'll look for food with the group after this."}
+- 21:53 act: {"say":"Curie, daylight now. Let's go to the cow spot at -1009, 80, -2970 together. I'll lead, and we'll stay in sight of each other.","actions":[{"do":"goto","target":{"x":-1006,"y":80,"z":-2970}}]}
+- 21:55 act: {"say":"Good, Curie and MacGyver are with me. Reynolds, stay where you are. No cows in sight yet, so we'll look around this spot together before dark."}
+- 21:58 act: {"say":"Night is coming and there's no cow. We go back to the shelter at -987, 80, -2969 now, all together, and close it up for the night.","actions":[{"do":"goto","target":{"x":-987,"y":80,"z":-2969}
+- 21:58 act: {"say":"I'm at the shelter and it reads enclosed from here. Curie, MacGyver, Troi: come in and shelter with me. Watch for spiders at the door."}
+- 22:01 act: {"say":"Morning. We made it through the night. I'm going to explore for cows and pigs nearby. Stay with me in sight.","intent":{"goal":"find_food_animals","program":"explore","arguments":{"legs":3,"le
+- 22:01 act: {"say":"Magellan, here are the 2 planks I owed you. Still no food found nearby; I'm looking for cows.","actions":[{"do":"give","to":"ag_magellan_01","item":"oak_planks","count":2}]}
+- 22:01 act: {"say":"Gave Magellan the 2 planks. Does anyone have spare food? I've had none since I woke, and I'd trade planks or help with work for some. Where are the cows or pigs?"}
+- 22:06 act: {"say":"Tesla, midday 1177, hunger 20, no food, 4 oak planks. I'm joining the cow hunt west with Gimli toward -970, -3030, in sight of the group. I'll trade planks for food.","actions":[{"do":"goto","
+- 22:12 act: {"actions":[{"do":"note","text":"Dusk 1177. Tesla at -972,81,-3028 with Gimli and Shackle in sight. No cow found. 4 planks. Staying with the group for the night."}],"say":"Tesla, night 1177, health 20
+- 22:13 act: {"actions":[{"do":"goto","target":{"x":-975,"y":80,"z":-3026}}],"say":"Tesla: I'm picking up the drop at -975,80,-3026 now, and I'll check if it's food. Shackle, name the cells and I'll place my plank
+- 22:13 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-975,"y":80,"z":-3026}},{"do":"place","block":"dirt","at":{"x":-973,"y":80,"z":-3026}},{"do":"place","block":"dirt","at":{"x":-974,"y":80,"z":-3025}}
+- 22:14 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-974,"y":81,"z":-3026}}],"say":"Tesla: my view says solid all round, but the snapshot says open. I'm placing dirt above my head now. Gimli, tell me w
+- 22:14 act: {"actions":[{"do":"goto","target":{"x":-962,"y":79,"z":-3011}}],"say":"Tesla, morning 1177, hunger 17, health 20. Going to the chest row to check the chests for food. Gimli, Shackle, come along if you
+- 22:14 act: {"actions":[{"do":"open","at":{"x":-963,"y":78,"z":-3010}}]}
+- 22:15 act: {"actions":[{"do":"open","at":{"x":-963,"y":78,"z":-3010}}],"say":"Tesla, morning 1177, hunger 17, no food. Opening the chest at -963,78,-3010 to check for food."}
+- 22:15 act: {"actions":[{"do":"withdraw","at":{"x":-963,"y":78,"z":-3010},"item":"bread","count":1}],"say":"Quark, the chest is open at -963,78,-3010. I'm trying bread from it now; if it comes out, it goes to you
+- 22:15 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"bread","count":1}],"say":"Quark, the chest had 1 bread. You're weakest, so it's yours. Shackle, Kira: the other chests still need checking."}
+- 22:15 act: {"actions":[{"do":"goto","target":{"x":-961,"y":78,"z":-3009}},{"do":"withdraw","at":{"x":-961,"y":78,"z":-3010},"item":"bread","count":1}],"say":"Tesla, morning 1177, hunger 17. Checking the chest at
+- 22:15 act: {"actions":[],"say":"Tesla: a withdraw from a chest that has no such item says how many it holds, e.g. 'container has only 0 bread'. Chest -961,78,-3010 has 0 bread. Shackle, try -958 for beef or pota
+- 22:15 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"oak_planks","count":1}],"say":"Quark, here is one plank. Janeway and Kira are checking the chests. I'll keep 3 planks for my own cell."}
+- 22:16 act: {"actions":[{"do":"goto","target":{"x":-1005,"y":80,"z":-2970}}],"say":"Tesla here, hunger 17 and no food. Heading to the cow spot at -1005,80,-2970 in daylight. Anyone who sees a cow or pig, call it 
+- 22:17 act: {"actions":[],"say":"Curie, I have no food, only 3 planks and dirt. I am at the cow spot and see no cow yet. I will stay here in sight and call out if one comes."}
+- 22:26 act: {"actions":[{"do":"plan","op":"add","plan_id":"night_ring","palette":{"dirt_b":{"block":"dirt"},"plank_b":{"block":"oak_planks"}},"steps":[{"op":"list","pal":"dirt_b","cells":[{"x":-1006,"y":80,"z":-2
+- 22:28 act: {"actions":[],"say":"MacGyver, my wall is still open on two sides, so I cannot take you in yet. Stay beside Troi in my sight. I have 3 dirt and 3 planks left and will close what I can."}
+- 22:34 act: {"say":"Yes, I'm with you, Curie. I'll stay in sight and hunt for cow or sheep, hungriest first.","intent":{"goal":"stay_with_curie_hunt","program":"follow","arguments":{"target":"ag_curie_01"},"wake_
+- 22:35 act: {"say":"Good. I'm staying close to Curie. Call me if you see a cow or sheep, and I'll come."}
+- 22:36 act: {"say":"Coming along to the sheep spot, Curie. Staying in your sight.","actions":[{"do":"goto","target":"ag_curie_01"}]}
+- 22:44 act: {"say":"Sun is low. My ring is mostly closed on the east, with one gap left and right. I'll finish it with my 3 dirt. MacGyver, stay near Troi and I'll call you when it's shut."}
+- 22:45 act: {"say":"Dark now. I'm placing my dirt to close the north side. Troi, MacGyver, stay close; I'll call when shut.","actions":[{"do":"plan","op":"add","plan_id":"night_north","palette":{"dirt_b":{"block"
+- 22:45 act: {"say":"Reynolds, my wall isn't shut yet, so I can't take you in. Stay where I can see you and keep your sword ready. I'll tell you the moment it's closed."}
+- 22:50 act: {"say":"Curie, if you can spare dirt, I'll use it to shut my left and right gaps. Then I can take Troi, MacGyver and Reynolds in."}
+- 22:50 act: {"say":"Thank you, Curie. Closing the gaps now.","actions":[{"do":"plan","op":"add","plan_id":"night_close","palette":{"dirt_b":{"block":"dirt"},"plank_b":{"block":"oak_planks"}},"steps":[{"op":"list"
+- 22:50 say: {"text":"The wall is nearly shut, with one gap on my right. Troi and MacGyver, wait by it; I will call you in when it is closed."}
+- 22:54 say: {"text":"Dawn. Curie, Troi, MacGyver: let's search for a cow or sheep together. I'm hungry and have no food. Mal, stay with Curie."}
+- 22:54 act: {"intent":{"goal":"find_food_with_group","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":true},"wake_on":["directly_addressed","goal_completed","unexpected_damage"],"limits":{"
+- 22:54 act: {"actions":[{"do":"goto","target":{"x":-959,"y":79,"z":-3008}}],"say":"Explore failed, so I'm going to check the chests at the row for food.","intent":{"goal":"check_chests_for_food","program":"travel
+- 22:54 act: {"actions":[{"do":"open","at":{"x":-959,"y":78,"z":-3010}}],"say":"Hungry, no food. I'm checking the chests here for bread or meat."}
+- 22:54 act: {"actions":[{"do":"withdraw","at":{"x":-959,"y":78,"z":-3010},"item":"bread","count":2}]}
+- 22:54 say: {"text":"No bread in the chest at -959. I'm trying the chest at -957 next. Anyone who sees a cow, sheep or pig, call it out."}
+- 22:54 act: {"actions":[{"do":"withdraw","at":{"x":-957,"y":78,"z":-3010},"item":"bread","count":2}]}
+- 22:55 say: {"text":"Shackle, I'll join your cow hunt in daylight and stay in your sight. Call any cow or pig to me first."}
+- 23:06 act: {"actions":[{"do":"goto","target":{"x":-1005,"y":80,"z":-2971}}],"intent":{"goal":"reach_cow_shelter","program":"travel","arguments":{"x":-1005,"y":80,"z":-2971},"wake_on":["directly_addressed","preco
+- 23:06 act: {"actions":[{"do":"plan","op":"add","plan_id":"night_close2","palette":{"dirt_b":{"block":"dirt"},"plank_b":{"block":"oak_planks"}},"steps":[{"op":"list","pal":"dirt_b","cells":[{"x":-1006,"y":80,"z":
+- 23:06 say: {"text":"Tesla here at the cow shelter, night 1180. I'm closing the last gap now. MacGyver and Troi, stay close and I'll call you in when it's sealed."}
+- 23:08 say: {"text":"Reynolds, my shelter isn't sealed either, and I can't take you in. Stay right beside me in sight, and I'll keep watch. Hold on until light."}
+- 23:11 act: {"actions":[{"do":"place","block":"dirt","at":{"x":-1006,"y":81,"z":-2972}},{"do":"place","block":"dirt","at":{"x":-1005,"y":81,"z":-2972}},{"do":"place","block":"dirt","at":{"x":-1005,"y":81,"z":-297
+- 23:13 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Zombie to the north-east, health 7. Blocking myself in now."}
+- 23:13 act: {"actions":[{"do":"goto","target":{"x":-950,"y":79,"z":-3013}}],"say":"Tesla here, health 4.7, hunger 17, no food. Janeway has the porkchop first; after that, I am the hungriest. Please bring any meat
+- 23:13 act: {"actions":[{"do":"goto","target":{"x":-920,"y":79,"z":-3040}}],"say":"Heading to the Stores hall at -920,-3040 for the free food sign. Health 4.7, hunger 17. Anyone going, stay in sight."}
+- 23:13 act: {"actions":[{"do":"goto","target":{"x":-918,"y":71,"z":-3040}},{"do":"withdraw","at":{"x":-917,"y":71,"z":-3040},"item":"bread","count":1}]}
+- 23:14 act: {"actions":[{"do":"withdraw","at":{"x":-916,"y":71,"z":-3040},"item":"potato","count":2},{"do":"withdraw","at":{"x":-915,"y":71,"z":-3040},"item":"carrot","count":2},{"do":"withdraw","at":{"x":-914,"y
+- 23:14 act: {"actions":[],"say":"Tesla, health 4.7, hunger 17. Spock, I'm at the Stores chests -918,71,-3041. Give me a melon slice if you can reach me, and Janeway gets the next meat."}
+- 23:14 act: {"actions":[],"say":"Tesla, I'm standing still at -918,71,-3041. Spock, come in and give me the melon. Andy, Leia and Docbrown are near, but I'm the hungry one now."}
+- 23:15 act: {"actions":[],"say":"Spock, I'm at -918,71,-3041, on stone bricks by the Stores chests, in the open. Walk toward these chests and I'll see you. Andy, thank you, staying here."}
+- 23:15 act: {"actions":[{"do":"withdraw","at":{"x":-918,"y":71,"z":-3040},"item":"carrot","count":2},{"do":"withdraw","at":{"x":-919,"y":71,"z":-3040},"item":"beef","count":2},{"do":"withdraw","at":{"x":-919,"y":
+- 23:15 act: {"actions":[{"do":"withdraw","at":{"x":-925,"y":71,"z":-3040},"item":"bread","count":2},{"do":"withdraw","at":{"x":-927,"y":71,"z":-3040},"item":"beef","count":2},{"do":"withdraw","at":{"x":-928,"y":7
+- 23:15 act: {"actions":[{"do":"withdraw","at":{"x":-927,"y":71,"z":-3040},"item":"cooked_beef","count":2},{"do":"withdraw","at":{"x":-926,"y":71,"z":-3040},"item":"cooked_porkchop","count":2},{"do":"withdraw","at
+- 23:15 act: {"actions":[{"do":"eat"},{"do":"eat"}],"say":"I have 2 cooked beef from the Stores chest. Eating now. Spock, keep your melon for whoever is still hungry."}
+- 23:15 act: {"actions":[],"say":"Hunger is up to 20 from one beef. I have 2 cooked beef left. Furiosa, if you are in my reach I'll give you one. Say your name."}
+- 23:17 act: {"actions":[{"do":"eat"}],"say":"Health is back to 14.9. I'm eating my last beef now. Furiosa, Legolas has melon for you."}
+- 23:17 act: {"actions":[],"say":"Tesla, health 14.9, hunger 20, no food in hand. Zheng He, give your bread to Furiosa first, she is weakest. I'm staying here at -923,71,-3042 in sight."}
+- 23:30 act: {"actions":[],"say":"Tesla, morning 1181, health 20, hunger 20. Bilbo, good, Furiosa first. I have 2 oak planks and 5 dirt for any shelter wall a checked cell needs. I'm staying in sight."}
+- 23:46 act: {"say":"Tesla, midday 1182, health 20, hunger 20, 2 oak planks and 5 dirt. I'm at the Stores in sight. I'll join the animal search with Quark and Hypatia if they go in daylight. I still need a checked
+- 23:47 act: {"say":"Tesla, midday 1182, health 20, hunger 20. I'll join the animal search in daylight, in sight of Shackle, Quark and Hypatia. Anne has the lowest health, so food goes to her first."}
+- 00:02 act: {"say":"Tesla, midday 1183, health 20, hunger 20, 2 planks and 5 dirt, no food. I'm in for the animal search. I'll stay at the chests until Quark is in sight, then walk one block behind, calling out a
+- 00:33 act: {"say":"Tesla, dusk 1184, health 20, hunger 20. No shelter yet, so I'm not sleeping out here. I hold 2 planks and 5 dirt for any checked wall. I'm staying in sight at the Stores."}
+- 00:37 act: {"say":"Tesla, morning 1184, health 20, hunger 20. My view here shows no checked wall cell, only chests and stone. I'll check any x,y,z named for the wall, alone and in sight, and bring my 2 planks an
+- 00:53 act: {"say":"Tesla, midday 1185, health 20, hunger 20, no food. I'll join the melon and pig walk to -886,66,-2925 in sight of the group. Any food I find goes to Anne and Shackle first."}
+- 01:26 act: {"actions":[],"say":"Tesla, night 1187, health 20, hunger 20, no food. View here shows open air, no checked cell. I stay at the chests in sight of Anne and Billy and will not sleep out here."}
+- 01:28 act: {"actions":[],"say":"Tesla, morning 1187, health 20, hunger 20, 2 planks and 5 dirt. Scotty, I'm with you. I'll name a cell only after view confirms it. Until then I hold in sight."}
+- 01:28 act: {"actions":[],"say":"Tesla, morning 1187: view shows open air above and ahead, but I cannot map any single cell to exact x,y,z with confidence, so I name none. Scotty, I'll name one when it is checked
+- 01:37 act: {"say":"Tesla, dusk 1187, health 20, hunger 20. Holding 2 planks and 5 dirt. I'm checking the cells around me with view and will name one only if it is open and confirmed."}
+- 01:49 act: {"say":"Tesla, dusk 1188, health 20, hunger 20. Crusoe, I hold 2 planks and 5 dirt for your wall at -955,78,-3009. Tell me when view has checked it, and I'll come alone and place beside you."}
+- 02:26 say: {"text":"Tesla here, low sun 1190. I hold no food, only 2 planks and 5 dirt. Anne, you are the weakest; take Spock's or Ripley's food first. I will place my planks on the first checked cell that is na
+- 03:07 act: {"say":"Tesla, night 1192. I am not enclosed and my view shows no open cell to name. I hold 2 planks and 5 dirt. If anyone names a checked cell with x, y, z, I will come alone and place beside you."}
+- 03:17 act: {"say":"Tesla, afternoon 1192. Watney, I will come to -914,71,-3029 as a second viewer and tell you what I see. I place nothing until a check says it is open.","actions":[{"do":"goto","target":{"x":-9
+- 03:26 act: {"actions":[{"do":"goto","target":{"x":-915,"y":71,"z":-3033}}],"say":"Tesla, day 1193, health 20, hunger 20. I have no food. Watney, I'll view -914,71,-3029 from a closer spot and report what I see."
+- 03:26 act: {"actions":[],"say":"Tesla at -916,71,-3033, midday 1193. My view faces north onto planks, so it does not cover -914,71,-3029. Still no confirmed cell. I have no food for Galileo."}
+- 03:34 act: {"actions":[],"say":"Tesla, morning 1194, not sheltered, hunger 20. I hold 2 planks and 6 dirt. Galileo, name a gap cell that two viewers have checked and I'll place from in sight."}
+- 03:50 say: {"text":"Tesla at -916,71,-3033, midday 1194. Galileo, I hold 2 planks and 6 dirt. Name one exact x,y,z that Battuta and I both see as open air, and I will place there."}
+- 04:07 say: {"text":"Tesla here, afternoon 1195. Health 20, hunger 20. I hold 2 oak planks and no food. I am going to the oak logs near -998,-2969 for wood. Orville, I owe you 1 jungle plank; I will bring it when
+- 04:07 act: {"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limits":{"m
+- 04:07 act: {"intent":{"goal":"reach_jungle_logs","program":"travel","arguments":{"x":-993,"y":79,"z":-2972},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limits":{"
+- 04:07 act: {"actions":[{"do":"goto","target":{"x":-993,"y":79,"z":-2972}}]}
+- 04:08 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":6},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limit
+- 04:10 act: {"actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2968}},{"do":"craft","item":"jungle_planks","count":8}],"say":"Got 7 jungle logs. Turning some into planks by the crafting table."}
+- 04:10 act: {"say":"I have 8 jungle planks now. Orville, I owe you one; where are you?"}
+- 04:13 act: {"actions":[{"do":"goto","target":{"x":-955,"y":79,"z":-3006}}],"say":"A spider is east of me, so I am heading to the chests where the group is."}
+- 04:13 act: {"say":"Orville, I have your jungle plank ready; call out where you are. Chapman, Leia is owed a chicken from me, could I buy yours? Leia, is that still wanted?"}
+- 04:15 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"oak_planks","count":2},{"do":"goto","target":{"x":-946,"y":78,"z":-3005}},{"do":"give","to":"ag_orville_01","item":"jungle_planks","count":1}],"say
+- 04:15 act: {"actions":[{"do":"wait","seconds":10},{"do":"give","to":"ag_orville_01","item":"jungle_planks","count":1}]}
+- 04:15 act: {"say":"Orville, the crowd is blocking my give. Could you step two blocks off from the others and I will hand you the jungle plank there?"}
+- 04:15 act: {"say":"Orville, I will keep your jungle plank until you ask for it, since the crowd blocks handing it over. I hold 8 jungle planks and 5 jungle logs; tell me who needs planks for a checked shelter."}
+- 04:19 act: {"actions":[{"do":"give","to":"ag_orville_01","item":"jungle_planks","count":1},{"do":"goto","target":{"x":-955,"y":78,"z":-3004}},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}],"
+- 04:20 act: {"actions":[{"do":"goto","target":"ag_anning_01"},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}],"say":"Anning, coming to you with the 7 jungle planks now."}
+- 04:20 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
+- 04:20 act: {"actions":[{"do":"deposit","at":{"x":-957,"y":78,"z":-3010},"item":"jungle_planks","count":7}],"say":"Anning, the give keeps failing because items lie on the ground by you. I am putting 7 jungle plan
+- 04:20 act: {"actions":[{"do":"deposit","at":{"x":-961,"y":78,"z":-3010},"item":"jungle_planks","count":7}],"say":"The chest at -957 is full, so I am trying the one at -961,78,-3010."}
+- 04:20 act: {"actions":[],"say":"Anning, the give fails and the chests are full. I still hold 7 jungle planks for you. Tell me a clear spot away from the dropped items, and I will set them there. Chapman, I see t
+- 04:21 act: {"actions":[],"say":"Orville, understood, I keep the plank and will not owe it. Anning, the 7 planks wait in my pack until you say where to take them."}
+- 04:21 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}],"say":"Anning, the planks are in my pack, not in a chest. I am handing you 7 jungle planks now."}
+- 04:21 act: {"actions":[],"say":"Anning, the give fails again because items lie on the ground by you. Please pick those up or step two blocks off, then tell me, and I will give the 7 planks."}
+- 04:26 act: {"actions":[],"say":"Tesla, morning 1196, fed, hunger 20. I hold 8 jungle planks and 5 logs. Hungry ones: the sign says free food at the Stores hall, x-920 z-3040. I will walk with Picard's group in y
+- 04:27 act: {"actions":[],"say":"Correction: I have no food sign to point to, and I do not know Picard's group. What I hold: 8 jungle planks, 5 jungle logs. Anning, I will give you the 7 planks once no one stands
+- 04:27 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}],"say":"Anning, giving you 7 jungle planks now."}
+- 04:27 act: {"actions":[],"say":"Anning, the give failed again: the items on the ground near you block it. Please pick up or move the dropped items away from you, then tell me and I will hand over the planks."}
+- 04:28 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
+- 04:28 act: {"actions":[{"do":"goto","target":"ag_anning_01"},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
+- 04:28 act: {"actions":[],"say":"Anning, 7 jungle planks given. I keep 1 plank and 5 logs. Chapman, Leia is owed a chicken; could you bring it to her?"}
+- 04:28 act: {"actions":[{"do":"goto","target":{"x":-951,"y":78,"z":-3016}},{"do":"craft","item":"jungle_planks","count":8}],"say":"Anning, I will craft planks from my logs at the table and bring you what I make."
+- 04:29 act: {"actions":[{"do":"goto","target":"ag_anning_01"},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":9}],"say":"Anning, here are 9 more jungle planks from my crafting."}
+- 04:29 act: {"actions":[],"say":"Anning, I cannot see you now. I hold 9 jungle planks ready. Stand where I can see you and I will hand them over."}
+- 04:29 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":6}],"say":"Anning, sending 6 more jungle planks. That leaves me 3 planks and 3 logs."}
