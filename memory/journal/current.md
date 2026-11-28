@@ -146,3 +146,36 @@
 - 03:26 act: {"actions":[],"say":"Tesla at -916,71,-3033, midday 1193. My view faces north onto planks, so it does not cover -914,71,-3029. Still no confirmed cell. I have no food for Galileo."}
 - 03:34 act: {"actions":[],"say":"Tesla, morning 1194, not sheltered, hunger 20. I hold 2 planks and 6 dirt. Galileo, name a gap cell that two viewers have checked and I'll place from in sight."}
 - 03:50 say: {"text":"Tesla at -916,71,-3033, midday 1194. Galileo, I hold 2 planks and 6 dirt. Name one exact x,y,z that Battuta and I both see as open air, and I will place there."}
+- 04:07 say: {"text":"Tesla here, afternoon 1195. Health 20, hunger 20. I hold 2 oak planks and no food. I am going to the oak logs near -998,-2969 for wood. Orville, I owe you 1 jungle plank; I will bring it when
+- 04:07 act: {"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limits":{"m
+- 04:07 act: {"intent":{"goal":"reach_jungle_logs","program":"travel","arguments":{"x":-993,"y":79,"z":-2972},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limits":{"
+- 04:07 act: {"actions":[{"do":"goto","target":{"x":-993,"y":79,"z":-2972}}]}
+- 04:08 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":6},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limit
+- 04:10 act: {"actions":[{"do":"goto","target":{"x":-1009,"y":80,"z":-2968}},{"do":"craft","item":"jungle_planks","count":8}],"say":"Got 7 jungle logs. Turning some into planks by the crafting table."}
+- 04:10 act: {"say":"I have 8 jungle planks now. Orville, I owe you one; where are you?"}
+- 04:13 act: {"actions":[{"do":"goto","target":{"x":-955,"y":79,"z":-3006}}],"say":"A spider is east of me, so I am heading to the chests where the group is."}
+- 04:13 act: {"say":"Orville, I have your jungle plank ready; call out where you are. Chapman, Leia is owed a chicken from me, could I buy yours? Leia, is that still wanted?"}
+- 04:15 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"oak_planks","count":2},{"do":"goto","target":{"x":-946,"y":78,"z":-3005}},{"do":"give","to":"ag_orville_01","item":"jungle_planks","count":1}],"say
+- 04:15 act: {"actions":[{"do":"wait","seconds":10},{"do":"give","to":"ag_orville_01","item":"jungle_planks","count":1}]}
+- 04:15 act: {"say":"Orville, the crowd is blocking my give. Could you step two blocks off from the others and I will hand you the jungle plank there?"}
+- 04:15 act: {"say":"Orville, I will keep your jungle plank until you ask for it, since the crowd blocks handing it over. I hold 8 jungle planks and 5 jungle logs; tell me who needs planks for a checked shelter."}
+- 04:19 act: {"actions":[{"do":"give","to":"ag_orville_01","item":"jungle_planks","count":1},{"do":"goto","target":{"x":-955,"y":78,"z":-3004}},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}],"
+- 04:20 act: {"actions":[{"do":"goto","target":"ag_anning_01"},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}],"say":"Anning, coming to you with the 7 jungle planks now."}
+- 04:20 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
+- 04:20 act: {"actions":[{"do":"deposit","at":{"x":-957,"y":78,"z":-3010},"item":"jungle_planks","count":7}],"say":"Anning, the give keeps failing because items lie on the ground by you. I am putting 7 jungle plan
+- 04:20 act: {"actions":[{"do":"deposit","at":{"x":-961,"y":78,"z":-3010},"item":"jungle_planks","count":7}],"say":"The chest at -957 is full, so I am trying the one at -961,78,-3010."}
+- 04:20 act: {"actions":[],"say":"Anning, the give fails and the chests are full. I still hold 7 jungle planks for you. Tell me a clear spot away from the dropped items, and I will set them there. Chapman, I see t
+- 04:21 act: {"actions":[],"say":"Orville, understood, I keep the plank and will not owe it. Anning, the 7 planks wait in my pack until you say where to take them."}
+- 04:21 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}],"say":"Anning, the planks are in my pack, not in a chest. I am handing you 7 jungle planks now."}
+- 04:21 act: {"actions":[],"say":"Anning, the give fails again because items lie on the ground by you. Please pick those up or step two blocks off, then tell me, and I will give the 7 planks."}
+- 04:26 act: {"actions":[],"say":"Tesla, morning 1196, fed, hunger 20. I hold 8 jungle planks and 5 logs. Hungry ones: the sign says free food at the Stores hall, x-920 z-3040. I will walk with Picard's group in y
+- 04:27 act: {"actions":[],"say":"Correction: I have no food sign to point to, and I do not know Picard's group. What I hold: 8 jungle planks, 5 jungle logs. Anning, I will give you the 7 planks once no one stands
+- 04:27 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}],"say":"Anning, giving you 7 jungle planks now."}
+- 04:27 act: {"actions":[],"say":"Anning, the give failed again: the items on the ground near you block it. Please pick up or move the dropped items away from you, then tell me and I will hand over the planks."}
+- 04:28 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
+- 04:28 act: {"actions":[{"do":"goto","target":"ag_anning_01"},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":7}]}
+- 04:28 act: {"actions":[],"say":"Anning, 7 jungle planks given. I keep 1 plank and 5 logs. Chapman, Leia is owed a chicken; could you bring it to her?"}
+- 04:28 act: {"actions":[{"do":"goto","target":{"x":-951,"y":78,"z":-3016}},{"do":"craft","item":"jungle_planks","count":8}],"say":"Anning, I will craft planks from my logs at the table and bring you what I make."
+- 04:29 act: {"actions":[{"do":"goto","target":"ag_anning_01"},{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":9}],"say":"Anning, here are 9 more jungle planks from my crafting."}
+- 04:29 act: {"actions":[],"say":"Anning, I cannot see you now. I hold 9 jungle planks ready. Stand where I can see you and I will hand them over."}
+- 04:29 act: {"actions":[{"do":"give","to":"ag_anning_01","item":"jungle_planks","count":6}],"say":"Anning, sending 6 more jungle planks. That leaves me 3 planks and 3 logs."}
